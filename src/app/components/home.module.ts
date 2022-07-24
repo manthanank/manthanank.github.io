@@ -8,6 +8,8 @@ import { SkillsComponent } from './skills/skills.component';
 import { ProfilesComponent } from './profiles/profiles.component';
 import { AboutComponent } from './about/about.component';
 import { ExperienceComponent } from './experience/experience.component';
+import { NavbarComponent } from '../navbar/navbar.component';
+import { FooterComponent } from '../footer/footer.component';
 
 
 @NgModule({
@@ -17,7 +19,9 @@ import { ExperienceComponent } from './experience/experience.component';
     SkillsComponent,
     ProfilesComponent,
     AboutComponent,
-    ExperienceComponent
+    ExperienceComponent,
+    NavbarComponent,
+    FooterComponent
   ],
   imports: [
     CommonModule,
