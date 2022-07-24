@@ -10,6 +10,9 @@ import { AboutComponent } from './about/about.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { NavbarComponent } from '../navbar/navbar.component';
 import { FooterComponent } from '../footer/footer.component';
+import { ContactComponent } from './contact/contact.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { ErrorComponent } from './error/error.component';
 
 
 @NgModule({
@@ -21,11 +24,15 @@ import { FooterComponent } from '../footer/footer.component';
     AboutComponent,
     ExperienceComponent,
     NavbarComponent,
-    FooterComponent
+    FooterComponent,
+    ContactComponent,
+    ErrorComponent
   ],
   imports: [
     CommonModule,
-    HomeRoutingModule
+    HomeRoutingModule,
+    FormsModule,
+    ReactiveFormsModule
   ]
 })
 export class HomeModule { }
