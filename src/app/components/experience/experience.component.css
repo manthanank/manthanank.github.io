@@ -1,0 +1,9 @@
+h3{
+    /* underline */
+    font-family: cursive;
+    text-decoration: underline solid rgb(96, 6, 6);
+    text-decoration-thickness: 5px;
+}
+h4{
+    font-family: cursive;
+}
