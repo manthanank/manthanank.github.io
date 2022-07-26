@@ -1,28 +1,81 @@
-<div class="container">
+<div class="container" [ngClass]="{ limitTextHeight: isReadMore }">
   <div class="row row-cols-1 row-cols-md-3 g-4">
     <div class="col">
       <h5>Github</h5>
-      <img src="..." class="img-thumbnail" alt="..." />
+      <img
+        src="/assets/images/github-profile.png"
+        class="img-thumbnail"
+        alt="github-profile"
+      />
     </div>
     <div class="col">
       <h5>LinkedIn</h5>
-      <img src="..." class="img-thumbnail" alt="..." />
+      <img
+        src="/assets/images/linkedin-profile.png"
+        class="img-thumbnail"
+        alt="linkedin-profile"
+      />
     </div>
     <div class="col">
       <h5>Twitter</h5>
-      <img src="..." class="img-thumbnail" alt="..." />
+      <img
+        src="/assets/images/twitter-profile.png"
+        class="img-thumbnail"
+        alt="twitter-profile"
+      />
     </div>
     <div class="col">
       <h5>Medium</h5>
-      <img src="..." class="img-thumbnail" alt="..." />
+      <img
+        src="/assets/images/medium-profile.png"
+        class="img-thumbnail"
+        alt="medium-profile"
+      />
     </div>
     <div class="col">
       <h5>Dev.To</h5>
-      <img src="..." class="img-thumbnail" alt="..." />
+      <img
+        src="/assets/images/devto-profile.png"
+        class="img-thumbnail"
+        alt="devto-profile"
+      />
     </div>
     <div class="col">
       <h5>StackOverflow</h5>
-      <img src="..." class="img-thumbnail" alt="..." />
+      <img
+        src="/assets/images/stackoverflow-profile.png"
+        class="img-thumbnail"
+        alt="stackoverflow-profile"
+      />
+    </div>
+    <div class="col">
+      <h5>Codepen</h5>
+      <img
+        src="/assets/images/codepen-profile.png"
+        class="img-thumbnail"
+        alt="codepen-profile"
+      />
+    </div>
+    <div class="col">
+      <h5>GitLab</h5>
+      <img
+        src="/assets/images/gitlab-profile.png"
+        class="img-thumbnail"
+        alt="gitlab-profile"
+      />
+    </div>
+    <div class="col">
+      <h5>Hashnode</h5>
+      <img
+        src="/assets/images/hashnode-profile.png"
+        class="img-thumbnail"
+        alt="hashnode-profile"
+      />
     </div>
   </div>
+</div>
+<div class="container">
+  <button type="button" (click)="showText()">
+    {{ isReadMore ? "Read More" : "Read Less" }}
+  </button>
 </div>

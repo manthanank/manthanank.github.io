@@ -1,9 +1,47 @@
 h5{
     text-align: center;
+    font-family: cursive;
 }
 img{
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+img:hover{
+    transform: scale(1.1);
+}
+.limitTextHeight {
+    height: 210px;
+    overflow: hidden;
+}
+.container{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button
+{
+    color: white;
+    background-color: #4b4c4d;
+    margin: 8px 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover
+{
+    background-color: #4b4c4d;
+    opacity: 0.8;
+}
+
+/* responsive */
+@media screen and (max-width: 600px) {
+    img{
+        width: 100%;
+    }
+    .limitTextHeight {
+        height: 660px;
+        overflow: hidden;
+    }
 }
