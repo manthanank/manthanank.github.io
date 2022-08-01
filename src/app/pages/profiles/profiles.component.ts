@@ -6,13 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./profiles.component.css']
 })
 export class ProfilesComponent implements OnInit {
-  isReadMore = true;
 
   constructor() { }
 
   ngOnInit(): void {
   }
-  showText() {
-    this.isReadMore = !this.isReadMore
-  }
+
 }
