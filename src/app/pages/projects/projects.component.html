@@ -1,23 +1,19 @@
-<div id="container--main">
-  <a href="index.html">&#x2190; Go Back</a>
-  <h1>Built a Laboratory management system for forensics lab</h1>
+<div id="1" *ngFor="let project of projects">
+  <a routerLink="">&#x2190; Go Back</a>
+  <h1>{{ project.name }}</h1>
 
   <ul>
-    <li><a href="#">Live Demo</a></li>
-    <li><a href="#">Source code</a></li>
+    <li>
+      Demo Url :
+      <a href="">{{ project.url }}</a>
+    </li>
+    <li>
+      Source Code :
+      <a href="">{{ project.sourceCode }}</a>
+    </li>
   </ul>
   <p>
-    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-    Lorem Ipsum has been the industry's standard dummy text ever since the
-    1500s, when an unknown printer took a galley of type and scrambled it to
-    make a type specimen book. It has survived not only five centuries
-  </p>
-
-  <p>
-    It is a long established fact that a reader will be distracted by the
-    readable content of a page when looking at its layout. The point of using
-    Lorem Ipsum is that it has a more-or-less normal distribution of letters, as
-    opposed to using 'Content here, content here', making it look
+    {{ project.description }}
   </p>
 
   <ul>
@@ -31,68 +27,4 @@
       during the Renaissance. The first line of Lorem Ipsum, "Lorem"
     </li>
   </ul>
-</div>
-
-<header></header>
-<div class="container">
-  <div class="row row-cols-1 row-cols-md-3 g-4">
-    <div class="col">
-      <div class="card h-100">
-        <img
-          src="/assets/images/netflix-clone.png"
-          class="card-img-top"
-          alt="netflix-clone"
-        />
-        <div class="card-body">
-          <h5 class="card-title">Netflix Clone</h5>
-          <p class="card-text">
-            This is a wider card with supporting text below as a natural lead-in
-            to additional content. This content is a little bit longer.
-          </p>
-        </div>
-        <div class="card-footer">
-          <small class="text-muted">Last updated 3 mins ago</small>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card h-100">
-        <img
-          src="/assets/images/react-portfolio.png"
-          class="card-img-top"
-          alt="rect-portfolio"
-        />
-        <div class="card-body">
-          <h5 class="card-title">React Portfolio</h5>
-          <p class="card-text">
-            This card has supporting text below as a natural lead-in to
-            additional content.
-          </p>
-        </div>
-        <div class="card-footer">
-          <small class="text-muted">Last updated 3 mins ago</small>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card h-100">
-        <img
-          src="/assets/images/covidtrackerpage.png"
-          class="card-img-top"
-          alt="covidtrackerpage"
-        />
-        <div class="card-body">
-          <h5 class="card-title">Angular Covid Tracker</h5>
-          <p class="card-text">
-            This is a wider card with supporting text below as a natural lead-in
-            to additional content. This card has even longer content than the
-            first to show that equal height action.
-          </p>
-        </div>
-        <div class="card-footer">
-          <small class="text-muted">Last updated 3 mins ago</small>
-        </div>
-      </div>
-    </div>
-  </div>
 </div>
