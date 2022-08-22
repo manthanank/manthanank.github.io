@@ -52,3 +52,15 @@ This website has no auto toggle theme switcher, therefor to change themes you mu
 --mainBorderColor:var(--mainBorderColor-light);
 --mainBgColor:var(--mainBgColor-light);
 ```
+
+### Angular application performance with the help of GZip compression
+
+`npm install -g gzipper`
+
+And I modified the package.json and added one more command under scripts, like this.
+
+`"build-compress": "ng build && gzipper c ./dist --include js,css,html --output-file-format [filename].[ext] ./dist-compressed/"`
+
+### Run 
+
+`npm run build-compress`
