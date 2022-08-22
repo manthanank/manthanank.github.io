@@ -2,6 +2,7 @@
   <section id="wrapper--hero" class="section--page">
     <img
       id="profile-pic"
+      class="lazyload"
       src="./assets/images/profile-picture.webp"
       alt="profile-pic"
     />
@@ -12,8 +13,12 @@
         Front End Developer, Web Designer, and a passionate learner. Karnataka,
         India.
       </p>
-      <a href="https://manthanank.xyz" target="_blank">Porfolio website</a>
-      <p id="email">👉 manthan.ank49@gmail.com</p>
+      <a href="https://manthanank.xyz" target="_blank" rel="nofollow"
+        >Porfolio website</a
+      >
+      <p id="email">
+        👉 <a href="mailto:manthanank@gmail.com">manthanank@gmail.com</a>
+      </p>
     </div>
   </section>
 
@@ -101,16 +106,11 @@
     <h2>Projects</h2>
 
     <div class="card--project">
-      <a routerLink="projects/project-1">
-        ><span>🏆 </span>Ecommerce platform using paypal and stripe API for
-        payment integration</a
-      >
+      <a routerLink="projects/project-1"> ><span>🏆 </span>Project-1</a>
     </div>
 
     <div class="card--project">
-      <a routerLink="/projects/project-2">
-        ><span>🏆 </span>Social Network - open source project</a
-      >
+      <a routerLink="/projects/project-2"> ><span>🏆 </span>Project-2</a>
     </div>
   </section>
 </div>

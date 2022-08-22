@@ -1,30 +1,20 @@
-<div id="1" *ngFor="let project of projects">
-  <a routerLink="">&#x2190; Go Back</a>
-  <h1>{{ project.name }}</h1>
+<div id="container--main" *ngFor="let project of projects">
+  <section class="section--page">
+    <a routerLink="">&#x2190; Go Back</a>
+    <h1>{{ project.name }}</h1>
 
-  <ul>
-    <li>
-      Demo Url :
-      <a href="">{{ project.url }}</a>
-    </li>
-    <li>
-      Source Code :
-      <a href="">{{ project.sourceCode }}</a>
-    </li>
-  </ul>
-  <p>
-    {{ project.description }}
-  </p>
-
-  <ul>
-    <li>Contrary to popular belief, Lorem Ipsum is not simply random text</li>
-    <li>
-      making it over 2000 years old. Richard McClintock, a Latin professor at
-      Hampden-Sydney College in Virginia
-    </li>
-    <li>
-      45 BC. This book is a treatise on the theory of ethics, very popular
-      during the Renaissance. The first line of Lorem Ipsum, "Lorem"
-    </li>
-  </ul>
+    <ul>
+      <li>
+        Demo Url :
+        <a href="">{{ project.url }}</a>
+      </li>
+      <li>
+        Source Code :
+        <a href="">{{ project.sourceCode }}</a>
+      </li>
+    </ul>
+    <p>
+      {{ project.description }}
+    </p>
+  </section>
 </div>
