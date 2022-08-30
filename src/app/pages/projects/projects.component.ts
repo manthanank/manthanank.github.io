@@ -1,5 +1,7 @@
+import { CommonModule } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { ActivatedRoute, RouterModule } from '@angular/router';
 import projectsData from '../projects/projects.json';
 interface Project {
   id: string;
@@ -9,6 +11,8 @@ interface Project {
   sourceCode: string;
 }
 @Component({
+  standalone: true,
+  imports: [RouterModule, CommonModule, ReactiveFormsModule, FormsModule],
   selector: 'app-projects',
   templateUrl: './projects.component.html',
   styleUrls: ['./projects.component.css']
