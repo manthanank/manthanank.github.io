@@ -3,13 +3,8 @@ import { Component, OnInit } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ActivatedRoute, RouterModule } from '@angular/router';
 import projectsData from '../projects/projects.json';
-interface Project {
-  id: string;
-  name: string;
-  description: string;
-  url: string;
-  sourceCode: string;
-}
+import { Project } from '../projects/projects.model';
+
 @Component({
   standalone: true,
   imports: [RouterModule, CommonModule, ReactiveFormsModule, FormsModule],
