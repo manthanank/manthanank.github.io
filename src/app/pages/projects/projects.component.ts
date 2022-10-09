@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ActivatedRoute, RouterModule } from '@angular/router';
 import projectsData from '../projects/projects.json';
-import { Project } from '../projects/projects.model';
+import { Project } from '../projects/projects';
 
 @Component({
   standalone: true,
