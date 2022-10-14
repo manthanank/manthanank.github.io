@@ -1,10 +1,11 @@
 # Digital Resume
 
-A digital resume website built based on the content from my personal REAL [resume](./assets/resume.pdf) 
+A digital resume website built based on the content from my personal REAL [resume](./assets/resume.pdf)
 
 View live demo here using github pages: [Live Demo](https://manthanank.github.io/)
 
 ---
+
 ## Project Description
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.0.
@@ -34,6 +35,7 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
 ---
+
 ## Angular application performance with the help of GZip compression
 
 `npm install -g gzipper`
@@ -42,6 +44,6 @@ And I modified the package.json and added one more command under scripts, like t
 
 `"build-compress": "ng build && gzipper c ./dist --include js,css,html --output-file-format [filename].[ext] ./dist-compressed/"`
 
-### Run 
+### Run
 
 `npm run build-compress`
