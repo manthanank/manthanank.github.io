@@ -1,6 +1,6 @@
 # Digital Resume
 
-A digital resume website built based on the content from my personal REAL [resume](./assets/resume.pdf)
+A digital resume website built based on the content from my personal REAL [resume](https://docs.google.com/document/d/1Ba40AaV2Ol5hueeVe5wCI1GeBEtcPJXp3mzm-HZ6BHk/edit?usp=sharing)
 
 View live demo here using github pages: [Live Demo](https://manthanank.github.io/)
 
