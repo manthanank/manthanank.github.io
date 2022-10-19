@@ -2,7 +2,7 @@ name: Slack Issues
 
 on:
   issues:
-  types: [opened]
+    types: [opened]
 
 jobs:
   post_slack_messages:
