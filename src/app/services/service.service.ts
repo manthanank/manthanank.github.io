@@ -1,11 +1,12 @@
 import { Injectable } from '@angular/core';
 import { collection, collectionData, Firestore } from '@angular/fire/firestore';
-import { Observable } from 'rxjs';
-import { Project } from '../pages/projects/projects';
+import { BehaviorSubject, Observable } from 'rxjs';
 @Injectable({
   providedIn: 'root'
 })
 export class ServiceService {
+
+  loader = new BehaviorSubject<Boolean>(false);
 
   constructor(private fs: Firestore) {
   }
