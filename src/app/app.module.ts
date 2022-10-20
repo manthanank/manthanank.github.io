@@ -8,8 +8,8 @@ import { NgOptimizedImage } from '@angular/common';
 import { initializeApp, provideFirebaseApp } from '@angular/fire/app';
 import { environment } from '../environments/environment';
 import { provideFirestore, getFirestore } from '@angular/fire/firestore';
+import { HttpClientModule } from '@angular/common/http';
 import { ServiceService } from './services/service.service';
-
 @NgModule({
   declarations: [
     AppComponent
@@ -17,6 +17,7 @@ import { ServiceService } from './services/service.service';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
+    HttpClientModule,
     AppRoutingModule,
     NgOptimizedImage,
     provideFirebaseApp(() => initializeApp(environment.firebase)),
