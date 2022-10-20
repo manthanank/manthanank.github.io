@@ -5,6 +5,10 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import { NgOptimizedImage } from '@angular/common';
+import { initializeApp, provideFirebaseApp } from '@angular/fire/app';
+import { environment } from '../environments/environment';
+import { provideFirestore, getFirestore } from '@angular/fire/firestore';
+import { ServiceService } from './services/service.service';
 
 @NgModule({
   declarations: [
@@ -14,9 +18,11 @@ import { NgOptimizedImage } from '@angular/common';
     BrowserModule,
     BrowserAnimationsModule,
     AppRoutingModule,
-    NgOptimizedImage
+    NgOptimizedImage,
+    provideFirebaseApp(() => initializeApp(environment.firebase)),
+    provideFirestore(() => getFirestore())
   ],
-  providers: [],
+  providers: [ServiceService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
