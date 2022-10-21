@@ -96,14 +96,14 @@ li{
 #socials--list a{
     font-weight: 300;
     color: var(--secondaryTextColor);
-    font-size: 0.9em;
+    font-size: 1.2em;
     transition: 0.3s;
 }
 
 #socials--list a:hover{
     font-weight: 100;
     color: var(--mainLinkColor);
-    font-size: 0.9em;
+    font-size: 1.2em;
 }
 
 #qualifications--list{
