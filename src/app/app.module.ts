@@ -10,9 +10,11 @@ import { environment } from '../environments/environment';
 import { provideFirestore, getFirestore } from '@angular/fire/firestore';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { ServiceService } from './services/service.service';
+import { NavbarComponent } from './navbar/navbar.component';
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
@@ -21,7 +23,7 @@ import { ServiceService } from './services/service.service';
     AppRoutingModule,
     NgOptimizedImage,
     provideFirebaseApp(() => initializeApp(environment.firebase)),
-    provideFirestore(() => getFirestore())
+    provideFirestore(() => getFirestore()),
   ],
   providers: [ServiceService],
   bootstrap: [AppComponent]
