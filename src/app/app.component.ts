@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { ServiceService } from './services/service.service';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -8,7 +7,7 @@ import { ServiceService } from './services/service.service';
 export class AppComponent {
   title = 'portfolio';
 
-  constructor(private service: ServiceService) { }
+  constructor() { }
 
   ngOninit() {
   }
