@@ -5,9 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import { NgOptimizedImage } from '@angular/common';
-import { initializeApp, provideFirebaseApp } from '@angular/fire/app';
 import { environment } from '../environments/environment';
-import { provideFirestore, getFirestore } from '@angular/fire/firestore';
 import { HttpClientModule } from '@angular/common/http';
 import { NavbarComponent } from './navbar/navbar.component';
 @NgModule({
@@ -19,10 +17,7 @@ import { NavbarComponent } from './navbar/navbar.component';
     BrowserAnimationsModule,
     HttpClientModule,
     AppRoutingModule,
-    NgOptimizedImage,
-    NavbarComponent,
-    provideFirebaseApp(() => initializeApp(environment.firebase)),
-    provideFirestore(() => getFirestore()),
+    NavbarComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
