@@ -47,3 +47,8 @@ And I modified the package.json and added one more command under scripts, like t
 ### Run
 
 `npm run build-compress`
+
+### Build and analyze build size
+
+`ng build --stats-json`
+`webpack-bundle-analyzer docs/stats.json`

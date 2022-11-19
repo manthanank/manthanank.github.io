@@ -7,7 +7,7 @@ import { RouterModule } from '@angular/router';
   imports: [RouterModule, FormsModule, CommonModule, ReactiveFormsModule],
   selector: 'app-home',
   templateUrl: './home.component.html',
-  styleUrls: ['./home.component.css']
+  styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
 

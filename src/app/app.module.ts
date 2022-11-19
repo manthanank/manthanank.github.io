@@ -12,8 +12,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { NavbarComponent } from './navbar/navbar.component';
 @NgModule({
   declarations: [
-    AppComponent,
-    NavbarComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,
@@ -21,6 +20,7 @@ import { NavbarComponent } from './navbar/navbar.component';
     HttpClientModule,
     AppRoutingModule,
     NgOptimizedImage,
+    NavbarComponent,
     provideFirebaseApp(() => initializeApp(environment.firebase)),
     provideFirestore(() => getFirestore()),
   ],
