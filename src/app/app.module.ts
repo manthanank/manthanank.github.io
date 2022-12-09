@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule } from '@angular/common/http';
 import { MainComponent } from './main/main.component';
-
+import { NgOptimizedImage } from '@angular/common';
 @NgModule({
   declarations: [
     AppComponent
@@ -16,7 +16,8 @@ import { MainComponent } from './main/main.component';
     AppRoutingModule,
     BrowserAnimationsModule,
     HttpClientModule,
-    MainComponent
+    MainComponent,
+    NgOptimizedImage
   ],
   providers: [],
   bootstrap: [AppComponent]
