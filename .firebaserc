@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "manthanank": {
+      "hosting": {
+        "portfolio": [
+          "manthanank"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "manthanank"
+  }
+}
