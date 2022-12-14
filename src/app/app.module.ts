@@ -17,7 +17,7 @@ import { NgOptimizedImage } from '@angular/common';
     BrowserAnimationsModule,
     HttpClientModule,
     MainComponent,
-    NgOptimizedImage
+    NgOptimizedImage,
   ],
   providers: [],
   bootstrap: [AppComponent]
