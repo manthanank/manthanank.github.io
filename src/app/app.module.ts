@@ -7,6 +7,10 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule } from '@angular/common/http';
 import { MainComponent } from './main/main.component';
 import { NgOptimizedImage } from '@angular/common';
+
+import {MatToolbarModule} from '@angular/material/toolbar';
+import { NavbarComponent } from './navbar/navbar.component';
+
 @NgModule({
   declarations: [
     AppComponent
@@ -18,6 +22,8 @@ import { NgOptimizedImage } from '@angular/common';
     HttpClientModule,
     MainComponent,
     NgOptimizedImage,
+    NavbarComponent,
+    MatToolbarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
