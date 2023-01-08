@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { CommonModule, NgOptimizedImage } from '@angular/common';
 import { RouterModule } from '@angular/router';
-
 @Component({
   selector: 'app-about',
   standalone: true,

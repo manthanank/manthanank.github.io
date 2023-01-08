@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule } from '@angular/common/http';
-import { MainComponent } from './main/main.component';
 import { NgOptimizedImage } from '@angular/common';
 
 import {MatToolbarModule} from '@angular/material/toolbar';
 import { NavbarComponent } from './navbar/navbar.component';
-
+import { LoadingBarRouterModule } from '@ngx-loading-bar/router';
+import { ToastContainerModule, ToastrModule } from 'ngx-toastr';
+import { FooterComponent } from './footer/footer.component';
+import { HomeComponent } from './home/home.component';
 @NgModule({
   declarations: [
     AppComponent
@@ -19,11 +21,15 @@ import { NavbarComponent } from './navbar/navbar.component';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    LoadingBarRouterModule,
     HttpClientModule,
-    MainComponent,
     NgOptimizedImage,
+    HomeComponent,
     NavbarComponent,
-    MatToolbarModule
+    FooterComponent,
+    MatToolbarModule,
+    ToastrModule.forRoot(),
+    ToastContainerModule
   ],
   providers: [],
   bootstrap: [AppComponent]
