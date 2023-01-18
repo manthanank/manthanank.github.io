@@ -21,6 +21,7 @@ import { HomeComponent } from './home/home.component';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    HttpClientModule,
     LoadingBarRouterModule,
     HttpClientModule,
     NgOptimizedImage,
