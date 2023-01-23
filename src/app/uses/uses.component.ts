@@ -1,16 +1,16 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { UsesRoutingModule } from './uses-routing.module';
 import { HttpClient } from '@angular/common/http';
-import { WipComponent } from '../wip/wip.component';
 
 @Component({
-  selector: 'app-blogs',
+  selector: 'app-uses',
   standalone: true,
-  imports: [CommonModule, WipComponent],
-  templateUrl: './blogs.component.html',
-  styleUrls: ['./blogs.component.scss']
+  imports: [CommonModule, UsesRoutingModule],
+  templateUrl: './uses.component.html',
+  styleUrls: ['./uses.component.scss']
 })
-export class BlogsComponent implements OnInit{
+export class UsesComponent implements OnInit{
 
   data: any;
   constructor(private http: HttpClient){}

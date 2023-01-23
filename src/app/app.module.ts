@@ -10,9 +10,10 @@ import { NgOptimizedImage } from '@angular/common';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import { NavbarComponent } from './navbar/navbar.component';
 import { LoadingBarRouterModule } from '@ngx-loading-bar/router';
-import { ToastContainerModule, ToastrModule } from 'ngx-toastr';
+// import { ToastContainerModule, ToastrModule } from 'ngx-toastr';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
+import { WipComponent } from './wip/wip.component';
 @NgModule({
   declarations: [
     AppComponent
@@ -29,8 +30,9 @@ import { HomeComponent } from './home/home.component';
     NavbarComponent,
     FooterComponent,
     MatToolbarModule,
-    ToastrModule.forRoot(),
-    ToastContainerModule
+    WipComponent
+    // ToastrModule.forRoot(),
+    // ToastContainerModule
   ],
   providers: [],
   bootstrap: [AppComponent]

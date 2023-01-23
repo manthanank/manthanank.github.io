@@ -1,19 +1,18 @@
 import { Component, OnInit } from '@angular/core';
-import { CommonModule, NgOptimizedImage } from '@angular/common';
-import { RouterModule } from '@angular/router';
+import { CommonModule } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
 import { WipComponent } from '../wip/wip.component';
+
 @Component({
-  selector: 'app-projects',
+  selector: 'app-about',
   standalone: true,
-  imports: [RouterModule, CommonModule, NgOptimizedImage, WipComponent],
-  templateUrl: './projects.component.html',
-  styleUrls: ['./projects.component.scss']
+  imports: [CommonModule, WipComponent],
+  templateUrl: './about.component.html',
+  styleUrls: ['./about.component.scss']
 })
-export class ProjectsComponent implements OnInit{
+export class AboutComponent implements OnInit{
 
   data: any;
-  
   constructor(private http: HttpClient){}
 
   ngOnInit(){

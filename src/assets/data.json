@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Manthan Ank",
+        "picture": "/assets/images/profile-picture.png",
+        "projects": [
+            {
+                "projectTitle": "portfolio",
+                "projectDemo-link": "link",
+                "projectDesc":"dec"
+            }
+        ],
+        "blogs": [
+            {
+                "blogTitle": "title",
+                "blogUrl": "link",
+                "blogDesc":"desc"
+            }
+        ],
+        "uses": [
+            {
+                "usesTitle": "title",
+                "usesUrl": "link",
+                "usesDesc":"desc"
+            }
+        ]
+    }
+]
