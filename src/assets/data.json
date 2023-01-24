@@ -16,11 +16,69 @@
                 "blogDesc":"desc"
             }
         ],
-        "uses": [
+        "skills":[
             {
-                "usesTitle": "title",
-                "usesUrl": "link",
-                "usesDesc":"desc"
+                "name":"HTML",
+                "url":""
+            },
+            {
+                "name":"CSS",
+                "url":""
+            },
+            {
+                "name":"JavaScript",
+                "url":""
+            },
+            {
+                "name":"Angular",
+                "url":""
+            },
+            {
+                "name":"Nodejs",
+                "url":""
+            },
+            {
+                "name":"MongoDB",
+                "url":""
+            },
+            {
+                "name":"Firebase",
+                "url":""
+            },
+            {
+                "name":"Git",
+                "url":""
+            },
+            {
+                "name":"GitHub",
+                "url":""
+            }
+        ],
+        "uses":[
+            {
+                "hardware": [
+                    {
+                        "laptop": "HP",
+                        "url": "link"
+                    },
+                    {
+                        "keyboard": "Dell Wireless",
+                        "url": "link"
+                    },
+                    {
+                        "mouse": "HP",
+                        "url": "link"
+                    },
+                    {
+                        "glasses": "BluRay",
+                        "url": "link"
+                    }
+                ],
+                "software": [
+                    {
+                        "codeeditor": "VS Code"
+                    }
+                ]
             }
         ]
     }
