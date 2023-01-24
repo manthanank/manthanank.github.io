@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkportfolio=self.webpackChunkportfolio||[]).push([[739],{5739:(p,e,n)=>{n.r(e),n.d(e,{BlogsComponent:()=>o});var a=n(6895),t=n(8274);class o{}o.\u0275fac=function(l){return new(l||o)},o.\u0275cmp=t.Xpm({type:o,selectors:[["app-blogs"]],standalone:!0,features:[t.jDz],decls:0,vars:0,template:function(l,c){},dependencies:[a.ez]})}}]);
