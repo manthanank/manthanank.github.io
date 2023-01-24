@@ -6,79 +6,75 @@
             {
                 "projectTitle": "portfolio",
                 "projectDemo-link": "link",
-                "projectDesc":"dec"
+                "projectDesc": "dec"
             }
         ],
         "blogs": [
             {
                 "blogTitle": "title",
                 "blogUrl": "link",
-                "blogDesc":"desc"
+                "blogDesc": "desc"
             }
         ],
-        "skills":[
+        "skills": [
             {
-                "name":"HTML",
-                "url":""
+                "name": "HTML",
+                "skillIcon": "/assets/svg/html.svg"
             },
             {
-                "name":"CSS",
-                "url":""
+                "name": "CSS",
+                "skillIcon": "/assets/svg/html.svg"
             },
             {
-                "name":"JavaScript",
-                "url":""
+                "name": "JavaScript",
+                "skillIcon": "/assets/svg/html.svg"
             },
             {
-                "name":"Angular",
-                "url":""
+                "name": "Angular",
+                "skillIcon": "/assets/svg/html.svg"
             },
             {
-                "name":"Nodejs",
-                "url":""
+                "name": "Nodejs",
+                "skillIcon": "/assets/svg/html.svg"
             },
             {
-                "name":"MongoDB",
-                "url":""
+                "name": "MongoDB",
+                "skillIcon": "/assets/svg/html.svg"
             },
             {
-                "name":"Firebase",
-                "url":""
+                "name": "Firebase",
+                "skillIcon": "/assets/svg/html.svg"
             },
             {
-                "name":"Git",
-                "url":""
+                "name": "Git",
+                "skillIcon": "/assets/svg/html.svg"
             },
             {
-                "name":"GitHub",
-                "url":""
+                "name": "GitHub",
+                "skillIcon": "/assets/svg/html.svg"
             }
         ],
-        "uses":[
+        "uses": [
             {
-                "hardware": [
-                    {
-                        "laptop": "HP",
-                        "url": "link"
-                    },
-                    {
-                        "keyboard": "Dell Wireless",
-                        "url": "link"
-                    },
-                    {
-                        "mouse": "HP",
-                        "url": "link"
-                    },
-                    {
-                        "glasses": "BluRay",
-                        "url": "link"
-                    }
-                ],
-                "software": [
-                    {
-                        "codeeditor": "VS Code"
-                    }
-                ]
+                "laptop": "HP",
+                "laptopIcon": "/assets/images/profile-picture.png",
+                "laptopUrl": "https://amzn.eu/d/haEqDHw"
+            },
+            {
+                "keyboard": "Dell Wireless",
+                "keyboardIcon": "/assets/images/profile-picture.png",
+                "keyboardUrl": "https://amzn.eu/d/8wOHa0Z"
+            },
+            {
+                "mouse": "HP",
+                "url": "link"
+            },
+            {
+                "glasses": "Blu",
+                "url": "https://amzn.eu/d/3JLLoE2"
+            },
+            {
+                "codeeditor": "VS Code"
             }
         ]
     }

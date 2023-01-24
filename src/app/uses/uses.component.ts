@@ -1,12 +1,12 @@
 import { Component, OnInit } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { CommonModule, NgOptimizedImage } from '@angular/common';
 import { UsesRoutingModule } from './uses-routing.module';
 import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-uses',
   standalone: true,
-  imports: [CommonModule, UsesRoutingModule],
+  imports: [CommonModule, UsesRoutingModule, NgOptimizedImage],
   templateUrl: './uses.component.html',
   styleUrls: ['./uses.component.scss']
 })
