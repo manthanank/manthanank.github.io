@@ -14,6 +14,8 @@ import { LoadingBarRouterModule } from '@ngx-loading-bar/router';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { WipComponent } from './wip/wip.component';
+import { UiSwitchModule } from 'ngx-ui-switch';
+
 @NgModule({
   declarations: [
     AppComponent
@@ -30,7 +32,16 @@ import { WipComponent } from './wip/wip.component';
     NavbarComponent,
     FooterComponent,
     MatToolbarModule,
-    WipComponent
+    WipComponent,
+    UiSwitchModule.forRoot({
+      size: 'small',
+      color: 'rgb(0, 189, 99)',
+      switchColor: '#80FFA2',
+      defaultBgColor: '#00ACFF',
+      defaultBoColor : '#476EFF',
+      checkedLabel: 'on',
+      uncheckedLabel: 'off'
+    })
     // ToastrModule.forRoot(),
     // ToastContainerModule
   ],

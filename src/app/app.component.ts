@@ -15,4 +15,11 @@ export class AppComponent implements OnInit {
     //   timeOut: 3000,
     // });
   }
+  isDark = false;
+  
+  toggle() {
+    this.isDark
+      ? document.body.classList.remove('dark')
+      : document.body.classList.add('dark');
+  }
 }
