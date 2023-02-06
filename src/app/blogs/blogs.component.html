@@ -118,4 +118,11 @@
             </li>
         </ul>
     </div>
+    <div class="pt-4">
+        <ul class="list-disc" *ngFor="let item of blogs">
+            <li class="text-lg">
+                <a href="{{item.url}}" class="font-bold">{{item.title}}</a>
+            </li>
+        </ul>
+    </div>
 </div>

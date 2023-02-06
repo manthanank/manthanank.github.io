@@ -1,1 +1,13 @@
-<app-wip></app-wip>
+<!-- <app-wip></app-wip> -->
+<div class="container sm:w-1/2 w-10/12 mx-auto">
+    <p class="text-center font-extrabold text-3xl">Projects I have done⚒️!</p>
+    <div class="pt-4">
+        <ul class="list-disc" *ngFor="let item of projects">
+            <li class="text-lg">
+                <p class="font-bold">Title : {{item.title}}</p> 
+                <p>Demo URL : <a href="{{item.previewurl}}">Link</a></p>
+                <p>Code URL : <a href="{{item.codeurl}}">Link</a></p>
+            </li>
+        </ul>
+    </div>
+</div>
