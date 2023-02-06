@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
 })
 export class DataService {
 
-  url = 'https://backend-yduy.onrender.com/api/'
+  url = 'https://backend-yduy.onrender.com/api'
 
   constructor(private http: HttpClient) { }
 
@@ -17,4 +17,8 @@ export class DataService {
   getProjects(): Observable<any>{
     return this.http.get<any>(this.url + '/projects');
   }
+  getProjectsById(id: any): Observable<any>{
+    return this.http.get<any>(this.url + '/projects/' + id);
+  }
+
 }

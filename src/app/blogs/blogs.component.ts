@@ -25,7 +25,7 @@ export class BlogsComponent implements OnInit{
     // });
 
     this.dataService.getBlogs().subscribe(data => {
-      console.log(data);
+      // console.log(data);
       this.blogs = data;
     })
   }

@@ -4,9 +4,7 @@
     <div class="pt-4">
         <ul class="list-disc" *ngFor="let item of projects">
             <li class="text-lg">
-                <p class="font-bold">Title : {{item.title}}</p> 
-                <p>Demo URL : <a href="{{item.previewurl}}">Link</a></p>
-                <p>Code URL : <a href="{{item.codeurl}}">Link</a></p>
+                {{item.title}} <p><a [routerLink]="['project-details', item._id]">Details</a></p>
             </li>
         </ul>
     </div>

@@ -1,10 +1,19 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { ProjectDetailsComponent } from './projects/project-details/project-details.component';
 
 const routes: Routes = [
   // { path: '', redirectTo: '', pathMatch: "full" },
   { path: '', loadComponent: () => import('./home/home.component').then(m => m.HomeComponent) },
-  { path: 'projects', loadComponent: () => import('./projects/projects.component').then(m => m.ProjectsComponent) },
+  { path: 'projects', loadComponent: () => import('./projects/projects.component').then(m => m.ProjectsComponent)},
+  {
+    path: 'projects',  children: [
+      {
+        path: 'project-details/:id', component: ProjectDetailsComponent
+      }
+    ] 
+  },
+  // { path: 'project-details', loadComponent: () => import('./projects/project-details/project-details.component').then(m => m.ProjectDetailsComponent) },
   { path: 'blogs', loadComponent: () => import('./blogs/blogs.component').then(m => m.BlogsComponent) },
   { path: 'uses', loadComponent: () => import('./uses/uses.component').then(m => m.UsesComponent) },
   { path: 'about', loadComponent: () => import('./about/about.component').then(m => m.AboutComponent) },
