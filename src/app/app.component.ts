@@ -3,7 +3,6 @@ import { HttpClientModule } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { LoadingBarRouterModule } from '@ngx-loading-bar/router';
-import { ToastrService } from 'ngx-toastr';
 import { UiSwitchModule } from 'ngx-ui-switch';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
@@ -28,15 +27,10 @@ import { WipComponent } from './wip/wip.component';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent implements OnInit {
-  title = 'portfolio';
-  // constructor(private toastr: ToastrService) {}
-
-  ngOnInit() {
-    // this.toastr.success('Welcome To my Portfolio', 'Hey!', {
-    //   timeOut: 3000,
-    // });
-  }
+  
   isDark = false;
+
+  ngOnInit() {}
 
   toggle() {
     this.isDark

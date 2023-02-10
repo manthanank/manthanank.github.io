@@ -25,7 +25,6 @@
     "@ngx-loading-bar/router": "^6.0.2",
     "bootstrap": "^5.2.3",
     "ngx-spinner": "^15.0.1",
-    "ngx-toastr": "^16.0.2",
     "ngx-ui-switch": "^14.0.3",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
