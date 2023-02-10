@@ -29,6 +29,6 @@ export class ProjectsComponent implements OnInit{
     })
   }
   showDetails(item: any) {
-    this.router.navigate(['project-details/', item._id]);
+    this.router.navigate(['projects', item._id]);
   }
 }
