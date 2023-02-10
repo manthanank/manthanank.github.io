@@ -1,4 +1,4 @@
-import { NgOptimizedImage } from '@angular/common';
+import { HashLocationStrategy, LocationStrategy, NgOptimizedImage } from '@angular/common';
 import { HttpClientModule } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { RouterModule } from '@angular/router';
@@ -22,6 +22,11 @@ import { WipComponent } from './wip/wip.component';
     FooterComponent,
     WipComponent,
     UiSwitchModule,
+  ],
+  providers: [
+    {
+      provide: LocationStrategy, useClass: HashLocationStrategy
+    }
   ],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
