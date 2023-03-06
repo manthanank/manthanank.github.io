@@ -2,23 +2,12 @@
 :root {
   --font-1: "Inter", sans-serif;
   --font-2: "IBM Plex Serif", serif;
-  /* monospace
-     */
   --font-mono: Consolas, "Andale Mono", Courier, "Courier New", monospace;
 }
 
-/* ------------------------------------------------------------------- 
- * ## colors
- * ------------------------------------------------------------------- */
 :root {
-  /* color-1(#11ABB0)
-     * color-2(#F06000)
-     */
   --color-1: hsla(182, 82%, 38%, 1);
   --color-2: hsla(24, 100%, 47%, 1);
-
-  /* theme color variations
-     */
   --color-1-lighter: hsla(182, 82%, 58%, 1);
   --color-1-light: hsla(182, 82%, 48%, 1);
   --color-1-dark: hsla(182, 82%, 28%, 1);
@@ -27,11 +16,6 @@
   --color-2-light: hsla(24, 100%, 57%, 1);
   --color-2-dark: hsla(24, 100%, 37%, 1);
   --color-2-darker: hsla(24, 100%, 27%, 1);
-
-  /* feedback colors
-     * color-error(#ffd1d2), color-success(#c8e675), 
-     * color-info(#d7ecfb), color-notice(#fff099)
-     */
   --color-error: hsla(359, 100%, 91%, 1);
   --color-success: hsla(76, 69%, 68%, 1);
   --color-info: hsla(205, 82%, 91%, 1);
@@ -40,12 +24,6 @@
   --color-success-content: hsla(76, 29%, 28%, 1);
   --color-info-content: hsla(205, 32%, 31%, 1);
   --color-notice-content: hsla(51, 30%, 30%, 1);
-
-  /* shades 
-     * generated using 
-     * Tint & Shade Generator 
-     * (https://maketintsandshades.com/)
-     */
   --color-black: #000000;
   --color-gray-19: #0a0a0a;
   --color-gray-18: #141414;
@@ -67,16 +45,10 @@
   --color-gray-2: #e0e0e0;
   --color-gray-1: #eff0f0;
   --color-white: #ffffff;
-
-  /* text
-     */
   --color-text: var(--color-gray-16);
   --color-text-dark: var(--color-black);
   --color-text-light: var(--color-gray-7);
   --color-placeholder: var(--color-gray-7);
-
-  /* buttons
-     */
   --color-btn: var(--color-gray-3);
   --color-btn-text: var(--color-black);
   --color-btn-hover: var(--color-black);
@@ -89,28 +61,15 @@
   --color-btn-stroke-text: var(--color-black);
   --color-btn-stroke-hover: var(--color-black);
   --color-btn-stroke-hover-text: var(--color-white);
-
-  /* others
-     */
   --color-bg: var(--color-gray-18);
   --color-border: var(--color-gray-2);
   --border-radius: 5px;
 }
 
-/* ------------------------------------------------------------------- 
- * ## vertical spacing and typescale
- * ------------------------------------------------------------------- */
 :root {
-  /* spacing
-     * base font size: 18px 
-     * vertical space unit : 32px
-     */
   --base-size: 62.5%;
   --base-font-size: 1.8rem;
   --space: 3.2rem;
-
-  /* vertical spacing 
-     */
   --vspace-0_125: calc(0.125 * var(--space));
   --vspace-0_25: calc(0.25 * var(--space));
   --vspace-0_5: calc(0.5 * var(--space));
@@ -127,25 +86,6 @@
   --vspace-4: calc(4 * var(--space));
   --vspace-4_5: calc(4.5 * var(--space));
   --vspace-5: calc(5 * var(--space));
-
-  /* type scale
-     * ratio 1:2 | base: 18px
-     * -------------------------------------------------------
-     *
-     * --text-display-3 = (77.40px)
-     * --text-display-2 = (64.50px)
-     * --text-display-1 = (53.75px)
-     * --text-xxxl      = (44.79px)
-     * --text-xxl       = (37.32px)
-     * --text-xl        = (31.10px)
-     * --text-lg        = (25.92px)
-     * --text-md        = (21.60px)
-     * --text-size      = (18.00px) BASE
-     * --text-sm        = (15.00px)
-     * --text-xs        = (12.50px)
-     *
-     * -------------------------------------------------------
-     */
   --text-scale-ratio: 1.2;
   --text-size: var(--base-font-size);
   --text-xs: calc(
@@ -162,14 +102,8 @@
   --text-display-1: calc(var(--text-xxxl) * var(--text-scale-ratio));
   --text-display-2: calc(var(--text-display-1) * var(--text-scale-ratio));
   --text-display-3: calc(var(--text-display-2) * var(--text-scale-ratio));
-
-  /* default button height
-     */
   --vspace-btn: var(--vspace-2);
 }
-
-/* on mobile devices below 600px
- */
 @media screen and (max-width: 600px) {
   :root {
     --base-font-size: 1.6rem;
@@ -177,12 +111,7 @@
   }
 }
 
-/* ------------------------------------------------------------------- 
- * ## grid variables
- * ------------------------------------------------------------------- */
 :root {
-  /* widths for rows and containers
-     */
   --width-full: 100%;
   --width-max: 1080px;
   --width-wide: 1400px;
@@ -191,136 +120,67 @@
   --width-narrow: 800px;
   --width-narrower: 600px;
   --width-grid-max: var(--width-max);
-
-  /* gutters
-     */
   --gutter-lg: 2.4rem;
   --gutter-md: 2rem;
   --gutter-mob: 1rem;
 }
 
-/* ==========================================================================
- * # normalize
- * normalize.css v8.0.1 | MIT License |
- * github.com/necolas/normalize.css
- *
- * -------------------------------------------------------------------------- */
-
-/* ------------------------------------------------------------------- 
- * ## document
- * ------------------------------------------------------------------- */
-
-/* 1. Correct the line height in all browsers.
- * 2. Prevent adjustments of font size after orientation changes in iOS.*/
-
 html {
   line-height: 1.15;
-  /* 1 */
   -webkit-text-size-adjust: 100%;
-  /* 2 */
 }
-
-/* ------------------------------------------------------------------- 
- * ## sections
- * ------------------------------------------------------------------- */
-
-/* Remove the margin in all browsers. */
 
 body {
   margin: 0;
 }
 
-/* Render the `main` element consistently in IE. */
-
 main {
   display: block;
 }
-
-/* Correct the font size and margin on `h1` elements within `section` and
- * `article` contexts in Chrome, Firefox, and Safari. */
 
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
 }
 
-/* ------------------------------------------------------------------- 
- * ## grouping
- * ------------------------------------------------------------------- */
-
-/* 1. Add the correct box sizing in Firefox.
- * 2. Show the overflow in Edge and IE. */
-
 hr {
   -webkit-box-sizing: content-box;
   box-sizing: content-box;
-  /* 1 */
   height: 0;
-  /* 1 */
   overflow: visible;
-  /* 2 */
 }
-
-/* 1. Correct the inheritance and scaling of font size in all browsers.
- * 2. Correct the odd `em` font sizing in all browsers. */
 
 pre {
   font-family: monospace, monospace;
-  /* 1 */
   font-size: 1em;
-  /* 2 */
 }
-
-/* ------------------------------------------------------------------- 
- * ## text-level semantics
- * ------------------------------------------------------------------- */
-
-/* Remove the gray background on active links in IE 10. */
 
 a {
   background-color: transparent;
 }
 
-/* 1. Remove the bottom border in Chrome 57-
- * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari. */
-
 abbr[title] {
   border-bottom: none;
-  /* 1 */
   text-decoration: underline;
-  /* 2 */
   -webkit-text-decoration: underline dotted;
   text-decoration: underline dotted;
-  /* 2 */
 }
-
-/* Add the correct font weight in Chrome, Edge, and Safari. */
 
 b,
 strong {
   font-weight: bolder;
 }
 
-/* 1. Correct the inheritance and scaling of font size in all browsers.
- * 2. Correct the odd `em` font sizing in all browsers. */
-
 code,
 kbd,
 samp {
   font-family: monospace, monospace;
-  /* 1 */
   font-size: 1em;
-  /* 2 */
 }
-
-/* Add the correct font size in all browsers. */
 
 small {
   font-size: 80%;
 }
-
-/* Prevent `sub` and `sup` elements from affecting the line height in
- * all browsers. */
 
 sub,
 sup {
@@ -338,22 +198,9 @@ sup {
   top: -0.5em;
 }
 
-/* ------------------------------------------------------------------- 
- * ## embedded content
- * ------------------------------------------------------------------- */
-
-/* Remove the border on images inside links in IE 10. */
-
 img {
   border-style: none;
 }
-
-/* ------------------------------------------------------------------- 
- * ## forms
- * ------------------------------------------------------------------- */
-
-/* 1. Change the font styles in all browsers.
- * 2. Remove the margin in Firefox and Safari. */
 
 button,
 input,
@@ -361,34 +208,20 @@ optgroup,
 select,
 textarea {
   font-family: inherit;
-  /* 1 */
   font-size: 100%;
-  /* 1 */
   line-height: 1.15;
-  /* 1 */
   margin: 0;
-  /* 2 */
 }
-
-/* Show the overflow in IE.
- * 1. Show the overflow in Edge. */
 
 button,
 input {
-  /* 1 */
   overflow: visible;
 }
 
-/* Remove the inheritance of text transform in Edge, Firefox, and IE.
- * 1. Remove the inheritance of text transform in Firefox. */
-
 button,
 select {
-  /* 1 */
   text-transform: none;
 }
-
-/* Correct the inability to style clickable types in iOS and Safari. */
 
 button,
 [type="button"],
@@ -396,8 +229,6 @@ button,
 [type="submit"] {
   -webkit-appearance: button;
 }
-
-/* Remove the inner border and padding in Firefox. */
 
 button::-moz-focus-inner,
 [type="button"]::-moz-focus-inner,
@@ -407,8 +238,6 @@ button::-moz-focus-inner,
   padding: 0;
 }
 
-/* Restore the focus styles unset by the previous rule. */
-
 button:-moz-focusring,
 [type="button"]:-moz-focusring,
 [type="reset"]:-moz-focusring,
@@ -416,126 +245,70 @@ button:-moz-focusring,
   outline: 1px dotted ButtonText;
 }
 
-/* Correct the padding in Firefox. */
-
 fieldset {
   padding: 0.35em 0.75em 0.625em;
 }
 
-/* 1. Correct the text wrapping in Edge and IE.
- * 2. Correct the color inheritance from `fieldset` elements in IE.
- * 3. Remove the padding so developers are not caught out when they zero out
- *    `fieldset` elements in all browsers. */
-
 legend {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  /* 1 */
   color: inherit;
-  /* 2 */
   display: table;
-  /* 1 */
   max-width: 100%;
-  /* 1 */
   padding: 0;
-  /* 3 */
   white-space: normal;
-  /* 1 */
 }
-
-/* Add the correct vertical alignment in Chrome, Firefox, and Opera. */
 
 progress {
   vertical-align: baseline;
 }
 
-/* Remove the default vertical scrollbar in IE 10+. */
-
 textarea {
   overflow: auto;
 }
-
-/* 1. Add the correct box sizing in IE 10.
- * 2. Remove the padding in IE 10. */
 
 [type="checkbox"],
 [type="radio"] {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  /* 1 */
   padding: 0;
-  /* 2 */
 }
-
-/* Correct the cursor style of increment and decrement buttons in Chrome. */
 
 [type="number"]::-webkit-inner-spin-button,
 [type="number"]::-webkit-outer-spin-button {
   height: auto;
 }
 
-/* 1. Correct the odd appearance in Chrome and Safari.
- * 2. Correct the outline style in Safari. */
-
 [type="search"] {
   -webkit-appearance: textfield;
-  /* 1 */
   outline-offset: -2px;
-  /* 2 */
 }
-
-/* Remove the inner padding in Chrome and Safari on macOS. */
 
 [type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
-/* 1. Correct the inability to style clickable types in iOS and Safari.
- * 2. Change font properties to `inherit` in Safari. */
-
 ::-webkit-file-upload-button {
   -webkit-appearance: button;
-  /* 1 */
   font: inherit;
-  /* 2 */
 }
-
-/* ------------------------------------------------------------------- 
- * ## interactive
- * ------------------------------------------------------------------- */
-
-/* Add the correct display in Edge, IE 10+, and Firefox. */
 
 details {
   display: block;
 }
 
-/* Add the correct display in all browsers. */
-
 summary {
   display: list-item;
 }
-
-/* ------------------------------------------------------------------- 
- * ## misc
- * ------------------------------------------------------------------- */
-
-/* Add the correct display in IE 10+. */
 
 template {
   display: none;
 }
 
-/* Add the correct display in IE 10. */
-
 [hidden] {
   display: none;
 }
 
-/* ===================================================================
- * # basic/base setup styles
- *
- * ------------------------------------------------------------------- */
 html {
   font-size: 62.5%;
   -webkit-box-sizing: border-box;
@@ -560,9 +333,6 @@ body {
   -webkit-text-size-adjust: none;
 }
 
-/* ------------------------------------------------------------------- 
- * ## media
- * ------------------------------------------------------------------- */
 svg,
 img,
 video embed,
@@ -572,9 +342,6 @@ object {
   height: auto;
 }
 
-/* ------------------------------------------------------------------- 
- * ## typography resets
- * ------------------------------------------------------------------- */
 div,
 dl,
 dt,
@@ -629,9 +396,6 @@ li {
   display: block;
 }
 
-/* ------------------------------------------------------------------- 
- * ## links
- * ------------------------------------------------------------------- */
 a {
   text-decoration: none;
   line-height: inherit;
@@ -641,9 +405,6 @@ a img {
   border: none;
 }
 
-/* ------------------------------------------------------------------- 
- * ## inputs
- * ------------------------------------------------------------------- */
 fieldset {
   margin: 0;
   padding: 0;
@@ -662,18 +423,6 @@ textarea {
   appearance: none;
 }
 
-/* ===================================================================
- * # Grid v3.0.0
- *
- *   -----------------------------------------------------------------
- * - Grid breakpoints are based on MAXIMUM WIDTH media queries, 
- *   meaning they apply to that one breakpoint and ALL THOSE BELOW IT.
- * - Grid columns without a specified width will automatically layout 
- *   as equal width columns.
- * ------------------------------------------------------------------- */
-
-/* rows
- * ------------------------------------- */
 .row {
   width: 92%;
   max-width: var(--width-grid-max);
@@ -694,8 +443,6 @@ textarea {
   margin-right: calc(var(--gutter-lg) * -1);
 }
 
-/* columns
- * -------------------------------------- */
 .column {
   -ms-flex: 1 1 0%;
   -webkit-box-flex: 1;
@@ -703,12 +450,6 @@ textarea {
   padding: 0 var(--gutter-lg);
 }
 
-/* .collapse>.column, .column.collapse {
-    padding: 0;
-} */
-
-/* flex row containers utility classes
- */
 .row.row-wrap {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
@@ -767,8 +508,6 @@ textarea {
   justify-content: center;
 }
 
-/* flex item utility alignment classes
- */
 .align-center {
   margin: auto;
   -webkit-align-self: center;
@@ -825,8 +564,6 @@ textarea {
   align-self: flex-end;
 }
 
-/* large screen column widths 
- */
 .large-1 {
   -ms-flex: 0 0 8.33333%;
   -webkit-box-flex: 0;
@@ -911,9 +648,6 @@ textarea {
   max-width: 100%;
 }
 
-/* ------------------------------------------------------------------- 
- * ## medium screen devices
- * ------------------------------------------------------------------- */
 @media screen and (max-width: 1200px) {
   .row .row {
     margin-left: calc(var(--gutter-md) * -1);
@@ -996,9 +730,6 @@ textarea {
   }
 }
 
-/* ------------------------------------------------------------------- 
- * ## tablets
- * ------------------------------------------------------------------- */
 @media screen and (max-width: 800px) {
   .row {
     width: 90%;
@@ -1080,9 +811,6 @@ textarea {
   }
 }
 
-/* ------------------------------------------------------------------- 
- * ## mobile devices
- * ------------------------------------------------------------------- */
 @media screen and (max-width: 600px) {
   .row {
     width: 100%;
@@ -1175,9 +903,6 @@ textarea {
   }
 }
 
-/* ------------------------------------------------------------------- 
- * ## small mobile devices <= 400px
- * ------------------------------------------------------------------- */
 @media screen and (max-width: 400px) {
   .row .row {
     margin-left: 0;
@@ -1190,19 +915,12 @@ textarea {
     max-width: 100%;
     margin-left: 0;
     margin-right: 0;
-    /* padding: 0; */
   }
   .hide-on-mobile-small {
     display: none;
   }
 }
 
-/* ===================================================================
- * # block grids
- *
- * -------------------------------------------------------------------
- * Equally-sized columns define at parent/row level.
- * ------------------------------------------------------------------- */
 .block-large-1-8 > .column {
   -ms-flex: 0 0 12.5%;
   -webkit-box-flex: 0;
@@ -1252,9 +970,6 @@ textarea {
   max-width: 100%;
 }
 
-/* ------------------------------------------------------------------- 
- * ## block grids - medium screen devices
- * ------------------------------------------------------------------- */
 @media screen and (max-width: 1200px) {
   .block-medium-1-8 > .column {
     -ms-flex: 0 0 12.5%;
@@ -1300,9 +1015,6 @@ textarea {
   }
 }
 
-/* ------------------------------------------------------------------- 
- * ## block grids - tablets
- * ------------------------------------------------------------------- */
 @media screen and (max-width: 800px) {
   .block-tab-1-8 > .column {
     -ms-flex: 0 0 12.5%;
@@ -1348,9 +1060,6 @@ textarea {
   }
 }
 
-/* ------------------------------------------------------------------- 
- * ## block grids - mobile devices
- * ------------------------------------------------------------------- */
 @media screen and (max-width: 600px) {
   .block-mob-1-8 > .column {
     -ms-flex: 0 0 12.5%;
@@ -1396,9 +1105,6 @@ textarea {
   }
 }
 
-/* ------------------------------------------------------------------- 
- * ## block grids - small mobile devices <= 400px
- * ------------------------------------------------------------------- */
 @media screen and (max-width: 400px) {
   .stack > .column {
     -ms-flex: 0 0 100%;
@@ -1411,18 +1117,12 @@ textarea {
   }
 }
 
-/* ===================================================================
- * # MISC 
- *
- * ------------------------------------------------------------------- */
 .h-group:after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* misc helper classes
- */
 .is-hidden {
   display: none;
 }
@@ -1497,10 +1197,6 @@ textarea {
   float: right;
 }
 
-/* ===================================================================
- * # custom grid, block grid STACK breakpoints
- *
- * ------------------------------------------------------------------- */
 @media screen and (max-width: 1000px) {
   .w-1000-stack,
   .block-1000-stack > .column {
@@ -1531,10 +1227,6 @@ textarea {
   }
 }
 
-/* ===================================================================
- * # base style overrides 
- *
- * ------------------------------------------------------------------- */
 html {
   font-size: var(--base-size);
 }
@@ -1556,9 +1248,6 @@ body {
   padding: 0;
 }
 
-/* ------------------------------------------------------------------- 
- * ## links
- * ------------------------------------------------------------------- */
 a {
   color: var(--color-1);
   -webkit-transition: all 0.3s ease-in-out;
@@ -1576,25 +1265,6 @@ a:active {
   outline: 0;
 }
 
-/* ===================================================================
- * # typography & general theme styles
- * 
- * ------------------------------------------------------------------- */
-
-/* type scale - ratio 1:2 | base: 18px
- * -------------------------------------------------------------------
- * --text-display-3 = (77.40px)
- * --text-display-2 = (64.50px)
- * --text-display-1 = (53.75px)
- * --text-xxxl      = (44.79px)
- * --text-xxl       = (37.32px)
- * --text-xl        = (31.10px)
- * --text-lg        = (25.92px)
- * --text-md        = (21.60px)
- * --text-size      = (18.00px) BASE
- * --text-sm        = (15.00px)
- * --text-xs        = (12.50px)
- * -------------------------------------------------------------------- */
 h1,
 h2,
 h3,
@@ -1875,9 +1545,6 @@ hr.fancy::before {
   letter-spacing: 0.3em;
 }
 
-/* ------------------------------------------------------------------- 
- * ## Lists
- * ------------------------------------------------------------------- */
 ol {
   list-style: decimal;
 }
@@ -1935,9 +1602,6 @@ dd {
   margin: 0 0 0 2rem;
 }
 
-/* ------------------------------------------------------------------- 
- * ## responsive video container
- * ------------------------------------------------------------------- */
 .video-container {
   position: relative;
   padding-bottom: 56.25%;
@@ -1956,9 +1620,6 @@ dd {
   height: 100%;
 }
 
-/* ------------------------------------------------------------------- 
- * ## floated image 
- * ------------------------------------------------------------------- */
 img.h-pull-right {
   margin: var(--vspace-0_5) 0 var(--vspace-0_5) 2.8rem;
 }
@@ -1967,9 +1628,6 @@ img.h-pull-left {
   margin: var(--vspace-0_5) 2.8rem var(--vspace-0_5) 0;
 }
 
-/* ------------------------------------------------------------------- 
- * ## tables
- * ------------------------------------------------------------------- */
 table {
   border-width: 0;
   width: 100%;
@@ -2007,9 +1665,6 @@ td:last-child {
   -webkit-overflow-scrolling: touch;
 }
 
-/* ------------------------------------------------------------------- 
- * ## spacing
- * ------------------------------------------------------------------- */
 fieldset,
 button,
 .btn {
@@ -2035,10 +1690,6 @@ img,
   margin-bottom: var(--vspace-1);
 }
 
-/* =================================================================== 
- * # preloader
- *
- * ------------------------------------------------------------------- */
 #preloader {
   position: fixed;
   top: 0;
@@ -2112,9 +1763,6 @@ img,
   }
 }
 
-/* ------------------------------------------------------------------- 
- * ## page loaded
- * ------------------------------------------------------------------- */
 .ss-loaded #preloader {
   opacity: 0;
   visibility: hidden;
@@ -2128,10 +1776,6 @@ img,
   transition: opacity 0.6s ease-in-out;
 }
 
-/* ===================================================================
- * # forms 
- *
- * ------------------------------------------------------------------- */
 fieldset {
   border: none;
 }
@@ -2256,33 +1900,22 @@ label > input[type="radio"] {
   top: 0.2rem;
 }
 
-/* ------------------------------------------------------------------- 
- * ## Style Placeholder Text
- * ------------------------------------------------------------------- */
 ::-webkit-input-placeholder {
-  /* WebKit, Blink, Edge */
   color: var(--color-placeholder);
 }
 
 :-ms-input-placeholder {
-  /* Internet Explorer 10-11 */
   color: var(--color-placeholder);
 }
 
 ::-ms-input-placeholder {
-  /* Microsoft Edge */
   color: var(--color-placeholder);
 }
 
 ::placeholder {
-  /* Most modern browsers support this now. */
   color: var(--color-placeholder);
 }
 
-/* ===================================================================
- * # buttons 
- *
- * ------------------------------------------------------------------- */
 .btn,
 button,
 input[type="submit"],
@@ -2329,8 +1962,6 @@ input[type="button"]:focus {
   outline: 0;
 }
 
-/* button primary
- * ------------------------------------------------- */
 .btn.btn--primary,
 button.btn--primary,
 input[type="submit"].btn--primary,
@@ -2356,8 +1987,6 @@ input[type="button"].btn--primary:focus {
   color: var(--color-btn-primary-hover-text);
 }
 
-/* button modifiers
- * ------------------------------------------------- */
 .btn.h-full-width,
 button.h-full-width {
   width: 100%;
@@ -2400,14 +2029,6 @@ button.btn--pill {
   border-radius: 1000px !important;
 }
 
-/* =================================================================== 
- * # additional components
- *
- * ------------------------------------------------------------------- */
-
-/* ------------------------------------------------------------------- 
- * ## additional typo styles - (_additional-typo.scss)
- * ------------------------------------------------------------------- */
 .drop-cap:first-letter {
   float: left;
   font-family: var(--font-1);
@@ -2420,8 +2041,6 @@ button.btn--pill {
   color: var(--color-text-dark);
 }
 
-/* line definition style 
- * ----------------------------------------------- */
 .lining dt,
 .lining dd {
   display: inline;
@@ -2447,8 +2066,6 @@ button.btn--pill {
   margin-left: -0.2em;
 }
 
-/* dictionary definition style 
- * ----------------------------------------------- */
 .dictionary-style dt {
   display: inline;
   counter-reset: definitions;
@@ -2468,18 +2085,6 @@ button.btn--pill {
   content: counter(definitions, decimal) ". ";
 }
 
-/** 
- * Pull Quotes
- * -----------
- * markup:
- *
- * <figure class="pull-quote">
- *		<blockquote>
- *			<p></p>
- *		</blockquote>
- * </figure>
- *
- * --------------------------------------------------------------------- */
 .pull-quote {
   position: relative;
   padding: 0;
@@ -2518,18 +2123,6 @@ button.btn--pill {
   left: 50%;
 }
 
-/** 
- * Stats Tab
- * ---------
- * markup:
- *
- * <ul class="stats-tabs">
- *		<li><a href="#">[value]<em>[name]</em></a></li>
- *	</ul>
- *
- * Extend this object into your markup.
- *
- * --------------------------------------------------------------------- */
 .stats-tabs {
   padding: 0;
   margin: var(--vspace-1) 0;
@@ -2573,25 +2166,18 @@ button.btn--pill {
   color: var(--color-text-light);
 }
 
-/* ------------------------------------------------------------------- 
- * ## skillsvg
- * ------------------------------------------------------------------- */
-
-.skills{
+.skills {
   display: flex;
   flex-direction: row;
   gap: 10px;
   padding-top: 60px;
 }
 
-.skills-svg{
+.skills-svg {
   width: 80px;
   height: 100px;
 }
 
-/* ------------------------------------------------------------------- 
- * ## skillbars
- * ------------------------------------------------------------------- */
 .skill-bars-fat {
   list-style: none;
   margin: var(--vspace-2) 0 var(--vspace-1);
@@ -2714,9 +2300,6 @@ button.btn--pill {
   width: 100%;
 }
 
-/* ------------------------------------------------------------------- 
- * ## alert box
- * ------------------------------------------------------------------- */
 .alert-box {
   padding: var(--vspace-0_75) 4rem var(--vspace-0_75) 3.2rem;
   margin-bottom: var(--vspace-1);
@@ -2808,9 +2391,6 @@ button.btn--pill {
   transition: all 0.5s;
 }
 
-/* -------------------------------------------------------------------
- * ## pagination 
- * ------------------------------------------------------------------- */
 .pgn {
   --pgn-num-height: calc(var(--vspace-1) + 0.4rem);
   margin: var(--vspace-1) auto var(--vspace-1);
@@ -2940,20 +2520,12 @@ button.btn--pill {
   background-color: transparent;
 }
 
-/* ------------------------------------------------------------------- 
- * responsive:
- * pagination
- * ------------------------------------------------------------------- */
 @media screen and (max-width: 600px) {
   .pgn ul {
     padding: 0 5.2rem;
   }
 }
 
-/* ===================================================================
- * # common and reusable styles
- *
- * ------------------------------------------------------------------- */
 .wide {
   max-width: var(--width-wide);
 }
@@ -2992,9 +2564,6 @@ button.btn--pill {
   bottom: 0;
 }
 
-/* ------------------------------------------------------------------- 
- * ## animation stuff 
- * ------------------------------------------------------------------- */
 .animate-this {
   opacity: 0;
   visibility: hidden;
@@ -3017,7 +2586,6 @@ button.btn--pill {
   animation-timing-function: cubic-bezier(0, 0.55, 0.45, 1);
 }
 
-/* fade in up */
 @-webkit-keyframes fadeInUp {
   from {
     opacity: 0;
@@ -3048,9 +2616,6 @@ button.btn--pill {
   }
 }
 
-/* ------------------------------------------------------------------- 
- * ## MailtoUI style overrides
- * ------------------------------------------------------------------- */
 .mailtoui-modal {
   --mailtoui-modal-head-bgcolor: var(--color-gray-18);
   --mailtoui-modal-head-title-color: white;
@@ -3172,10 +2737,6 @@ button.btn--pill {
   color: white;
 }
 
-/* ------------------------------------------------------------------- 
- * responsive:
- * common and reusable styles
- * ------------------------------------------------------------------- */
 @media screen and (max-width: 1000px) {
   .section-header-allcaps {
     font-size: calc(var(--text-size) * 0.9444);
@@ -3196,10 +2757,6 @@ button.btn--pill {
   }
 }
 
-/* ===================================================================
- * # site header
- *
- * ------------------------------------------------------------------- */
 .s-header {
   --header-height: 6.8rem;
   z-index: 100;
@@ -3245,9 +2802,6 @@ button.btn--pill {
   visibility: visible;
 }
 
-/* -------------------------------------------------------------------
- * ## header nav
- * ------------------------------------------------------------------- */
 .s-header__nav {
   font-family: var(--font-1);
   font-size: 1.45rem;
@@ -3288,9 +2842,6 @@ button.btn--pill {
   color: var(--color-2);
 }
 
-/* ------------------------------------------------------------------- 
- * ## mobile menu toggle 
- * ------------------------------------------------------------------- */
 .s-header__menu-toggle {
   display: none;
   font-family: var(--font-1);
@@ -3365,10 +2916,6 @@ button.btn--pill {
   transform: rotate(225deg);
 }
 
-/* ------------------------------------------------------------------- 
- * responsive:
- * header
- * ------------------------------------------------------------------- */
 @media screen and (max-width: 800px) {
   .s-header {
     top: 0;
@@ -3463,19 +3010,12 @@ button.btn--pill {
   }
 }
 
-/* -------------------------------------------------------------------
- * make sure the menu is visible on larger screens
- * ------------------------------------------------------------------- */
 @media only screen and (min-width: 801px) {
   .s-header__nav {
     display: block !important;
   }
 }
 
-/* ===================================================================
- * # hero
- *
- * ------------------------------------------------------------------- */
 .s-hero {
   background-color: var(--color-gray-18);
   width: 100%;
@@ -3528,9 +3068,6 @@ button.btn--pill {
   opacity: 0.4;
 }
 
-/* ------------------------------------------------------------------- 
- * ## hero content
- * ------------------------------------------------------------------- */
 .s-hero__content {
   height: 100%;
   -ms-flex-align: center;
@@ -3585,9 +3122,6 @@ button.btn--pill {
   left: 50%;
 }
 
-/* ------------------------------------------------------------------- 
- * ## hero social
- * ------------------------------------------------------------------- */
 .s-hero__content-social {
   display: -ms-inline-flexbox;
   display: -webkit-inline-box;
@@ -3615,9 +3149,6 @@ button.btn--pill {
   margin-right: 0;
 }
 
-/* ------------------------------------------------------------------- 
- * ## hero scrolldown
- * ------------------------------------------------------------------- */
 .s-hero__scroll {
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
@@ -3689,9 +3220,6 @@ button.btn--pill {
   left: 0;
 }
 
-/* -------------------------------------------------------------------
- * ## animate hero content
- * ------------------------------------------------------------------- */
 .ss-preload .s-header,
 .ss-preload .s-hero {
   visibility: hidden;
@@ -3716,10 +3244,6 @@ button.btn--pill {
   animation-fill-mode: both;
 }
 
-/* ------------------------------------------------------------------- 
- * responsive:
- * hero
- * ------------------------------------------------------------------- */
 @media screen and (max-width: 1600px) {
   .s-hero__content h1 {
     font-size: 9.4rem;
@@ -3817,10 +3341,6 @@ button.btn--pill {
   }
 }
 
-/* ===================================================================
- * # about
- *
- * ------------------------------------------------------------------- */
 .s-about {
   --color-border: var(--color-gray-16);
   background-color: var(--color-gray-17);
@@ -3881,10 +3401,6 @@ button.btn--pill {
   fill: white;
 }
 
-/* ------------------------------------------------------------------- 
- * responsive:
- * about
- * ------------------------------------------------------------------- */
 @media screen and (max-width: 1200px) {
   .s-about__pic {
     width: var(--vspace-4_5);
@@ -3923,10 +3439,6 @@ button.btn--pill {
   }
 }
 
-/* ===================================================================
- * # resume 
- *
- * ------------------------------------------------------------------- */
 .s-resume {
   background-color: white;
   padding-top: calc(6 * var(--space));
@@ -3945,9 +3457,6 @@ button.btn--pill {
   margin-bottom: 0;
 }
 
-/* ------------------------------------------------------------------- 
- * ## resume block
- * ------------------------------------------------------------------- */
 .resume-block {
   margin-bottom: var(--vspace-1_75);
 }
@@ -3987,10 +3496,6 @@ button.btn--pill {
   margin-right: 0.2rem;
 }
 
-/* ------------------------------------------------------------------- 
- * responsive:
- * resume
- * ------------------------------------------------------------------- */
 @media screen and (max-width: 800px) {
   .s-resume {
     padding-top: var(--vspace-4);
@@ -4000,10 +3505,6 @@ button.btn--pill {
   }
 }
 
-/* ===================================================================
- * # portfolio
- *
- * ------------------------------------------------------------------- */
 .s-portfolio {
   background-color: var(--color-gray-1);
   padding-top: calc(6 * var(--space));
@@ -4018,9 +3519,6 @@ button.btn--pill {
   text-align: center;
 }
 
-/* ------------------------------------------------------------------- 
- * ## portfolio list
- * ------------------------------------------------------------------- */
 .folio-list {
   max-width: 1180px;
   margin-top: var(--vspace-2_5);
@@ -4083,8 +3581,6 @@ button.btn--pill {
   transition: all, 0.5s;
 }
 
-/* on hover
- *---------------------------------------------- */
 .folio-item:hover .folio-item__thumb::before {
   opacity: 1;
   visibility: visible;
@@ -4102,9 +3598,6 @@ button.btn--pill {
   transform: scale(1.05);
 }
 
-/* ------------------------------------------------------------------- 
- * ## modal popup
- * ------------------------------------------------------------------- */
 .modal-popup {
   max-width: 680px;
   background-color: white;
@@ -4183,10 +3676,6 @@ button.btn--pill {
   color: white;
 }
 
-/* ===================================================================
- * # CTA
- *
- * ------------------------------------------------------------------- */
 .s-cta {
   background-color: var(--color-gray-1);
   padding-top: var(--vspace-2_5);
@@ -4224,10 +3713,6 @@ button.btn--pill {
   max-width: 600px;
 }
 
-/* ------------------------------------------------------------------- 
- * responsive:
- * cta
- * ------------------------------------------------------------------- */
 @media screen and (max-width: 800px) {
   .s-cta {
     font-size: var(--text-md);
@@ -4257,10 +3742,6 @@ button.btn--pill {
   }
 }
 
-/* ===================================================================
- * # testimonials
- *
- * ------------------------------------------------------------------- */
 .s-testimonials {
   padding-top: var(--vspace-5);
   padding-bottom: var(--vspace-3_5);
@@ -4319,9 +3800,6 @@ button.btn--pill {
   min-width: 0;
 }
 
-/* ------------------------------------------------------------------- 
- * ## swiper style overrides
- * ------------------------------------------------------------------- */
 .s-testimonials .swiper-container {
   padding-bottom: var(--vspace-2_5);
 }
@@ -4345,9 +3823,6 @@ button.btn--pill {
   opacity: 1;
 }
 
-/* ------------------------------------------------------------------- 
- * ## testimonial slider 
- * ------------------------------------------------------------------- */
 .testimonial-slider {
   position: relative;
 }
@@ -4403,10 +3878,6 @@ button.btn--pill {
   color: rgba(255, 255, 255, 0.6);
 }
 
-/* ------------------------------------------------------------------- 
- * responsive:
- * testimonials
- * ------------------------------------------------------------------- */
 @media screen and (max-width: 800px) {
   .testimonial-slider__slide {
     text-align: center;
@@ -4433,10 +3904,6 @@ button.btn--pill {
   }
 }
 
-/* ===================================================================
- * # contact
- *
- * ------------------------------------------------------------------- */
 .s-contact {
   background-color: var(--color-gray-18);
   padding-top: calc(6 * var(--space));
@@ -4460,9 +3927,6 @@ button.btn--pill {
   margin-left: auto;
 }
 
-/* ------------------------------------------------------------------- 
- * ## contact block
- * ------------------------------------------------------------------- */
 .contact-infos .btn {
   margin-top: var(--vspace-0_75);
 }
@@ -4490,10 +3954,6 @@ button.btn--pill {
   margin-bottom: 0.2rem;
 }
 
-/* ------------------------------------------------------------------- 
- * responsive:
- * contact
- * ------------------------------------------------------------------- */
 @media screen and (max-width: 1200px) {
   .s-contact {
     padding-bottom: var(--vspace-2);
@@ -4548,10 +4008,6 @@ button.btn--pill {
   }
 }
 
-/* ===================================================================
- * # footer
- *
- * ------------------------------------------------------------------- */
 .s-footer {
   background-color: var(--color-gray-18);
   padding-top: var(--vspace-1);
@@ -4574,9 +4030,6 @@ button.btn--pill {
   color: var(--color-2);
 }
 
-/* ------------------------------------------------------------------- 
- * ## footer social
- * ------------------------------------------------------------------- */
 .s-footer__social {
   list-style: none;
   font-size: var(--text-lg);
@@ -4606,9 +4059,6 @@ button.btn--pill {
   margin-right: 1.6rem;
 }
 
-/* ------------------------------------------------------------------- 
- * ## copyright
- * ------------------------------------------------------------------- */
 .ss-copyright {
   z-index: 2;
   -ms-flex-order: -1;
@@ -4634,9 +4084,6 @@ button.btn--pill {
   display: none;
 }
 
-/* ------------------------------------------------------------------- 
- * ## go top
- * ------------------------------------------------------------------- */
 .ss-go-top {
   z-index: 2;
   opacity: 0;
@@ -4692,10 +4139,6 @@ button.btn--pill {
   transform: translate(0, 0);
 }
 
-/* ------------------------------------------------------------------- 
- * responsive:
- * footer
- * ------------------------------------------------------------------- */
 @media screen and (max-width: 1200px) {
   .s-footer {
     padding-bottom: var(--vspace-2_5);
