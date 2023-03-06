@@ -2166,18 +2166,6 @@ button.btn--pill {
   color: var(--color-text-light);
 }
 
-.skills {
-  display: flex;
-  flex-direction: row;
-  gap: 10px;
-  padding-top: 60px;
-}
-
-.skills-svg {
-  width: 80px;
-  height: 100px;
-}
-
 .skill-bars-fat {
   list-style: none;
   margin: var(--vspace-2) 0 var(--vspace-1);
