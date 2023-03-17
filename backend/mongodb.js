@@ -6,7 +6,7 @@ mongoose
     .connect(
         "mongodb+srv://manthanank:" +
         process.env.MONGO_ATLAS_PW +
-        "@cluster0.re3ha3x.mongodb.net/profile"
+        "@cluster0.re3ha3x.mongodb.net/manthanank-github-io"
     )
     .then(() => {
         console.log("Connected to MongoDB database!");
