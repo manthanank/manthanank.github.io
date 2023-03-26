@@ -1,3 +1,12 @@
+# [1.3.0](https://github.com/manthanank/manthanank.github.io/compare/v1.2.0...v1.3.0) (2023-03-26)
+
+
+### Features
+
+* updated ([73886b0](https://github.com/manthanank/manthanank.github.io/commit/73886b0a0a941c72c821be461785a90646e2e051))
+
+
+
 # [1.2.0](https://github.com/manthanank/manthanank.github.io/compare/v1.1.0...v1.2.0) (2023-03-26)
 
 
