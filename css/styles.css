@@ -2716,7 +2716,7 @@ button.btn--pill {
 }
 
 .mailtoui-brand a {
-  color: rgba(255, 255, 255, 0.4);
+  color: rgb(255, 255, 255);
 }
 
 .mailtoui-brand a:hover,
@@ -3334,7 +3334,7 @@ button.btn--pill {
   /* background-color: var(--color-gray-17); */
   padding-top: calc(6 * var(--space));
   padding-bottom: var(--vspace-4);
-  color: rgba(255, 255, 255, 0.4);
+  color: #eaeaea;
 }
 
 .s-about h2 {
@@ -3357,9 +3357,9 @@ button.btn--pill {
   margin-top: var(--vspace-2);
 }
 
-.s-about__content-bottom a {
+/* .s-about__content-bottom a {
   color: rgba(255, 255, 255, 0.4);
-}
+} */
 
 .s-about__content-bottom a:hover,
 .s-about__content-bottom a:focus {
@@ -3479,7 +3479,7 @@ button.btn--pill {
   font-style: normal;
   text-transform: uppercase;
   letter-spacing: 0.12em;
-  color: var(--color-text-light);
+  /* color: var(--color-text-light); */
 }
 
 .resume-block__header-date::before {
@@ -3941,7 +3941,7 @@ button.btn--pill {
 .contact-block__header {
   font-size: 2.2rem;
   font-weight: 400;
-  color: rgba(255, 255, 255, 0.4);
+  color: rgb(192, 192, 192);
   margin-top: 0;
   margin-bottom: 0.2rem;
 }
@@ -4004,7 +4004,7 @@ button.btn--pill {
   /* background-color: var(--color-gray-18); */
   padding-top: var(--vspace-1);
   padding-bottom: var(--vspace-3);
-  color: rgba(255, 255, 255, 0.2);
+  color: rgb(255, 255, 255);
   position: relative;
 }
 
