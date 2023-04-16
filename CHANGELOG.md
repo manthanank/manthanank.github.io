@@ -1,3 +1,12 @@
+# [1.7.0](https://github.com/manthanank/manthanank.github.io/compare/v1.6.0...v1.7.0) (2023-04-16)
+
+
+### Features
+
+* updated favicon ([74edbad](https://github.com/manthanank/manthanank.github.io/commit/74edbad5debdbedbec9efdfaa7177fed70e2d8c2))
+
+
+
 # [1.6.0](https://github.com/manthanank/manthanank.github.io/compare/v1.5.0...v1.6.0) (2023-04-16)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * updated ([73886b0](https://github.com/manthanank/manthanank.github.io/commit/73886b0a0a941c72c821be461785a90646e2e051))
-
-
-
-# [1.2.0](https://github.com/manthanank/manthanank.github.io/compare/v1.1.0...v1.2.0) (2023-03-26)
-
-
-### Features
-
-* updated ([5aaafb5](https://github.com/manthanank/manthanank.github.io/commit/5aaafb569fbd3585d799d5104e67f0f12d5b0038))
 
 
 
