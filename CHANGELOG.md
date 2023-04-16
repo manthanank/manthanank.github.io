@@ -1,3 +1,12 @@
+# [1.8.0](https://github.com/manthanank/manthanank.github.io/compare/v1.7.0...v1.8.0) (2023-04-16)
+
+
+### Features
+
+* deleted favicon ([69857ff](https://github.com/manthanank/manthanank.github.io/commit/69857ffb769846b3b234fa52f6cc14c2635a70ed))
+
+
+
 # [1.7.0](https://github.com/manthanank/manthanank.github.io/compare/v1.6.0...v1.7.0) (2023-04-16)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * updated ([2c7f88e](https://github.com/manthanank/manthanank.github.io/commit/2c7f88eb8a12854b6061acd35f7894991450a360))
-
-
-
-# [1.3.0](https://github.com/manthanank/manthanank.github.io/compare/v1.2.0...v1.3.0) (2023-03-26)
-
-
-### Features
-
-* updated ([73886b0](https://github.com/manthanank/manthanank.github.io/commit/73886b0a0a941c72c821be461785a90646e2e051))
 
 
 
