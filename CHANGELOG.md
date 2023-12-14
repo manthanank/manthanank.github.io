@@ -1,3 +1,12 @@
+# [1.11.0](https://github.com/manthanank/manthanank.github.io/compare/v1.10.0...v1.11.0) (2023-12-14)
+
+
+### Features
+
+* Update index.html ([27f67f3](https://github.com/manthanank/manthanank.github.io/commit/27f67f30d3c0310888c6b1035ec598bcfb2e6017))
+
+
+
 # [1.10.0](https://github.com/manthanank/manthanank.github.io/compare/v1.9.0...v1.10.0) (2023-12-14)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * updated favicon ([74edbad](https://github.com/manthanank/manthanank.github.io/commit/74edbad5debdbedbec9efdfaa7177fed70e2d8c2))
-
-
-
-# [1.6.0](https://github.com/manthanank/manthanank.github.io/compare/v1.5.0...v1.6.0) (2023-04-16)
-
-
-### Features
-
-* updated images folder ([b090602](https://github.com/manthanank/manthanank.github.io/commit/b09060268d911f2cd869e0bade3e603f9233ac90))
 
 
 
