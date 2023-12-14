@@ -1,3 +1,12 @@
+# [1.9.0](https://github.com/manthanank/manthanank.github.io/compare/v1.8.0...v1.9.0) (2023-12-14)
+
+
+### Features
+
+* updated ([4454afb](https://github.com/manthanank/manthanank.github.io/commit/4454afb21f53ab531168456f80090b3a923b1c35))
+
+
+
 # [1.8.0](https://github.com/manthanank/manthanank.github.io/compare/v1.7.0...v1.8.0) (2023-04-16)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * Update index.html ([99edacc](https://github.com/manthanank/manthanank.github.io/commit/99edacc7242b449ddc8eb5f0a3bc6ce029bb4e21))
-
-
-
-# [1.4.0](https://github.com/manthanank/manthanank.github.io/compare/v1.3.0...v1.4.0) (2023-03-26)
-
-
-### Features
-
-* updated ([2c7f88e](https://github.com/manthanank/manthanank.github.io/commit/2c7f88eb8a12854b6061acd35f7894991450a360))
 
 
 
