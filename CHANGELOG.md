@@ -1,3 +1,12 @@
+# [1.14.0](https://github.com/manthanank/manthanank.github.io/compare/v1.13.0...v1.14.0) (2024-07-06)
+
+
+### Features
+
+* Add QR Code Generator App project to index.html ([d6b9772](https://github.com/manthanank/manthanank.github.io/commit/d6b97723a64133aacb55cf61b80d6789a9f67e6e))
+
+
+
 # [1.13.0](https://github.com/manthanank/manthanank.github.io/compare/v1.11.0...v1.13.0) (2024-07-06)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * updated ([4454afb](https://github.com/manthanank/manthanank.github.io/commit/4454afb21f53ab531168456f80090b3a923b1c35))
-
-
-
-# [1.8.0](https://github.com/manthanank/manthanank.github.io/compare/v1.7.0...v1.8.0) (2023-04-16)
-
-
-### Features
-
-* deleted favicon ([69857ff](https://github.com/manthanank/manthanank.github.io/commit/69857ffb769846b3b234fa52f6cc14c2635a70ed))
 
 
 
