@@ -1,3 +1,12 @@
+# [1.15.0](https://github.com/manthanank/manthanank.github.io/compare/v1.14.0...v1.15.0) (2024-07-06)
+
+
+### Features
+
+* Add new project images to index.html ([3cc2dac](https://github.com/manthanank/manthanank.github.io/commit/3cc2dac136dbade66398fddbdef5437ad06bacb3))
+
+
+
 # [1.14.0](https://github.com/manthanank/manthanank.github.io/compare/v1.13.0...v1.14.0) (2024-07-06)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * updated ([854aad7](https://github.com/manthanank/manthanank.github.io/commit/854aad71d4e7a6c4673e331e823866779aa77175))
-
-
-
-# [1.9.0](https://github.com/manthanank/manthanank.github.io/compare/v1.8.0...v1.9.0) (2023-12-14)
-
-
-### Features
-
-* updated ([4454afb](https://github.com/manthanank/manthanank.github.io/commit/4454afb21f53ab531168456f80090b3a923b1c35))
 
 
 
