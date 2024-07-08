@@ -1,3 +1,12 @@
+# [1.16.0](https://github.com/manthanank/manthanank.github.io/compare/v1.15.0...v1.16.0) (2024-07-08)
+
+
+### Features
+
+* Update QR Code Generator App image to use webp format ([32bb2f3](https://github.com/manthanank/manthanank.github.io/commit/32bb2f3de47910dba6f61a037dcc1849a54e16c6))
+
+
+
 # [1.15.0](https://github.com/manthanank/manthanank.github.io/compare/v1.14.0...v1.15.0) (2024-07-06)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * Update index.html ([27f67f3](https://github.com/manthanank/manthanank.github.io/commit/27f67f30d3c0310888c6b1035ec598bcfb2e6017))
-
-
-
-# [1.10.0](https://github.com/manthanank/manthanank.github.io/compare/v1.9.0...v1.10.0) (2023-12-14)
-
-
-### Features
-
-* updated ([854aad7](https://github.com/manthanank/manthanank.github.io/commit/854aad71d4e7a6c4673e331e823866779aa77175))
 
 
 
