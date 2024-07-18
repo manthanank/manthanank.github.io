@@ -1,3 +1,12 @@
+# [1.17.0](https://github.com/manthanank/manthanank.github.io/compare/v1.16.0...v1.17.0) (2024-07-18)
+
+
+### Features
+
+* Optimize image format for upload-post-page.webp ([9af463b](https://github.com/manthanank/manthanank.github.io/commit/9af463bb25230accb29724e9fa424656110eb007))
+
+
+
 # [1.16.0](https://github.com/manthanank/manthanank.github.io/compare/v1.15.0...v1.16.0) (2024-07-08)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * Add new project images to index.html ([c8a38ce](https://github.com/manthanank/manthanank.github.io/commit/c8a38cecab2e34d167a7cbe9c84aaf14a56df8bb))
-
-
-
-# [1.11.0](https://github.com/manthanank/manthanank.github.io/compare/v1.10.0...v1.11.0) (2023-12-14)
-
-
-### Features
-
-* Update index.html ([27f67f3](https://github.com/manthanank/manthanank.github.io/commit/27f67f30d3c0310888c6b1035ec598bcfb2e6017))
 
 
 
