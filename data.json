@@ -101,7 +101,7 @@
   ],
   "projects": [
     {
-      "id": "modal-01",
+      "id": "01",
       "title": "Netflix Clone",
       "description": "This is a Netflix Clone built using React. It fetches movie data from the TMDB API and displays it on the homepage. Users can click on a movie to view more details about it. The app also includes features like searching for movies and viewing movie trailers.",
       "technologies": [
@@ -111,7 +111,7 @@
       "link": "https://github.com/manthanank/netflix-clone-react-app"
     },
     {
-      "id": "modal-02",
+      "id": "02",
       "title": "Covid 19 Tracker Page",
       "description": "This is a Covid-19 Tracker Page built using Angular. It fetches data from the disease.sh API and displays it on the homepage. Users can view global statistics as well as statistics for individual countries. The app also includes features like searching for countries and viewing historical data.",
       "technologies": [
@@ -121,7 +121,7 @@
       "link": "https://github.com/manthanank/covid19-tracker-angular-app"
     },
     {
-      "id": "modal-03",
+      "id": "03",
       "title": "Modern Cryptopunk Clone - React",
       "description": "This is a Modern Cryptopunk Clone built using React. It allows users to explore and collect virtual cryptopunk characters. The app includes features like browsing different cryptopunks, viewing detailed information about each character, and adding them to a user's collection. Users can also buy and sell cryptopunks in the marketplace.",
       "technologies": [
@@ -131,7 +131,7 @@
       "link": "https://github.com/manthanank/modern-cryptopunk-clone-react-app"
     },
     {
-      "id": "modal-04",
+      "id": "04",
       "title": "Upload Post Page",
       "description": "This is an Upload Post Page built using Angular. It allows users to upload images and post them on the homepage. Users can view posts from other users, like and comment on posts, and search for specific posts. The app also includes features like user authentication and authorization. MongoDB is used for data storage. Users can register an account, log in, and manage their posts. Backend is built using Node.js.",
       "technologies": [
@@ -141,7 +141,7 @@
       "link": "https://github.com/manthanank/upload-post-app"
     },
     {
-      "id": "modal-05",
+      "id": "05",
       "title": "Full Stack Blog App",
       "description": "This is a Full Stack Blog App that allows users to create, read, update, and delete blog posts. It is built using Angular for the frontend, and Node.js and MongoDB for the backend. Users can register an account, log in, and manage their blog posts. The app also includes features like commenting on blog posts and searching for specific posts.",
       "technologies": [
@@ -151,7 +151,7 @@
       "link": "https://github.com/manthanank/blog-app"
     },
     {
-      "id": "modal-06",
+      "id": "06",
       "title": "Generate Slug App",
       "description": "This is a Generate Slug App that allows users to generate a slug from a given string. It is built using Angular for the frontend. Users can enter a string and generate a slug from it. The app also includes features like copying the slug to the clipboard and resetting the input field.",
       "technologies": [
@@ -161,7 +161,7 @@
       "link": "https://github.com/manthanank/generate-slug-app"
     },
     {
-      "id": "modal-07",
+      "id": "07",
       "title": "Weather App - Angular(PWA)",
       "description": "This is a Weather App built using Angular. It fetches weather data from the OpenWeatherMap API and displays it on the homepage. Users can view the current weather, hourly forecast, and daily forecast for a specific location. The app also includes features like searching for locations and viewing weather alerts.",
       "technologies": [
@@ -171,7 +171,7 @@
       "link": "https://github.com/manthanank/weather-app"
     },
     {
-      "id": "modal-08",
+      "id": "08",
       "title": "Weather App - Angular",
       "description": "This is a Weather App built using Angular. It fetches weather data from the OpenWeatherMap API and displays it on the homepage. Users can view the current weather, hourly forecast, and daily forecast for a specific location. The app also includes features like searching for locations and viewing weather alerts.",
       "technologies": [
@@ -181,7 +181,7 @@
       "link": "https://github.com/manthanank/weather-app-angular"
     },
     {
-      "id": "modal-09",
+      "id": "09",
       "title": "Fitness Tracker App - Angular",
       "description": "This is a Fitness Tracker App built using Angular and Firebase. It allows users to track their daily workouts and view their workout history. The app also includes features like filtering workouts by date and viewing workout statistics.",
       "technologies": [
@@ -191,7 +191,7 @@
       "link": "https://github.com/manthanank/fitness-tracker-angular-firebase-app"
     },
     {
-      "id": "modal-10",
+      "id": "10",
       "title": "Digital Resume",
       "description": "This is a Digital Resume built using HTML, CSS, and JavaScript. It is a single-page website that showcases my personal information, skills, experience, and projects. The website is fully responsive and optimized for all devices.",
       "technologies": [
@@ -203,7 +203,7 @@
       "link": "https://github.com/manthanank/fitness-tracker-angular-firebase-app"
     },
     {
-      "id": "modal-11",
+      "id": "11",
       "title": "Food Store App - Angular",
       "description": "This is a Food Store App built using Angular. It allows users to browse different food items, add them to the cart, and place an order. The app also includes features like searching for food items, viewing order history, and managing user accounts. Users can register an account, log in, and view their profile. Firebase is used for authentication and data storage.",
       "technologies": [
@@ -215,7 +215,7 @@
       "link": "https://github.com/manthanank/food-store-app-angular"
     },
     {
-      "id": "modal-12",
+      "id": "12",
       "title": "Contact Page",
       "description": "This is a Contact Page built using HTML, CSS, and JavaScript. It is a single-page website to contact me. The website is fully responsive and optimized for all devices. It also includes features like sending an message to me. It is a simple contact page. Messages are stored in the database.",
       "technologies": [
@@ -227,7 +227,7 @@
       "link": "https://github.com/manthanank/contact"
     },
     {
-      "id": "modal-13",
+      "id": "13",
       "title": "LinkTree Clone App - Angular",
       "description": "This is a LinkTree Clone App built using Angular. It allows users to create a custom landing page with links to their social media profiles, websites, and other online content. The app includes features like adding, editing, and deleting links and sharing the page with others.",
       "technologies": [
@@ -237,7 +237,7 @@
       "link": "https://github.com/manthanank/linktree-clone-angular"
     },
     {
-      "id": "modal-14",
+      "id": "14",
       "title": "QR Code Generator App - Angular",
       "description": "This is a QR Code Generator App built using Angular. It allows users to generate QR codes for URLs, text, phone numbers, and email addresses.",
       "technologies": [
@@ -247,7 +247,7 @@
       "link": "https://github.com/manthanank/qr-code-generator-angular-app"
     },
     {
-      "id": "modal-15",
+      "id": "15",
       "title": "URL Shortener App",
       "description": "This is a URL Shortener App built using Angular. It allows users to shorten long URLs and share them with others. The app includes features like generating short URLs, copying them to the clipboard, and viewing all shorten URL. Backend is built using Node.js and MongoDB.",
       "technologies": [
@@ -257,7 +257,7 @@
       "link": "https://github.com/manthanank/url-shortener-app"
     },
     {
-      "id": "modal-16",
+      "id": "16",
       "title": "Expense Tracker App",
       "description": "This is an Expense Tracker App built using Angular. It allows users to track their income and expenses, view their transaction history, and analyze their spending habits. The app includes features like adding, editing, and deleting transactions, filtering transactions by date, and viewing transaction statistics. Backend is built using Node.js and MongoDB.",
       "technologies": [
