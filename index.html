@@ -49,26 +49,15 @@
     <div class="row s-hero__content">
       <div class="column">
         <div class="s-hero__content-about">
-          <h1>I'm Manthan Ank.</h1>
+          <h1>I'm <span class="full-name"></span>.</h1>
 
           <p>
-            I'm a Karnataka based <span>Software Engineer</span>, Let's
+            I'm a <span id="state"></span> based <span class="title"></span>, Let's
             <a class="smoothscroll" href="#about" aria-label="scroll down arrow">start scrolling</a> and
             learn more <a class="smoothscroll" href="#about">about me</a>.
           </p>
 
-          <div class="s-hero__content-social">
-            <a href="https://www.facebook.com/manthanank/" aria-label="facebook link"><i class="fab fa-facebook-square"
-                aria-hidden="true"></i></a>
-            <a href="https://twitter.com/manthan_ank" aria-label="twitter link"><i class="fab fa-x-twitter"
-                aria-hidden="true"></i></a>
-            <a href="https://www.instagram.com/manthan_ank/" aria-label="instagram link"><i class="fab fa-instagram"
-                aria-hidden="true"></i></a>
-            <a href="https://github.com/manthanank" aria-label="github link"><i class="fab fa-github"
-                aria-hidden="true"></i></a>
-            <a href="https://www.linkedin.com/in/manthanank" aria-label="linkedin link"><i class="fab fa-linkedin"
-                aria-hidden="true"></i></a>
-          </div>
+          <div class="s-hero__content-social"></div>
         </div>
       </div>
     </div>
@@ -92,28 +81,20 @@
       </div>
       <div class="column large-9 tab-12 s-about__content">
         <h2>About Me</h2>
-        <p>
-          Hi there! I am Manthan! You might also know me as manthanank. I've
-          been coding over 2 years now. I am a Software Engineer based in Karnataka, India. I have a Bachelor's degree
-          in Computer Science from Sahyadri College of Engineering & Management. I have experience in Front End
-          Development, Back End Development, and Full Stack Development. I have worked on various projects using
-          Angular, Node.js, and MongoDB. I am passionate about coding and always eager to learn new technologies. I am
-          currently working as a Software Engineer at Blackcoffer.
-        </p>
+        <p class="about"></p>
         <!-- <hr /> -->
         <div class="row s-about__content-bottom">
           <div class="column w-1000-stack">
             <h3>Contact Details</h3>
             <p>
-              Manthan Ank <br />
-              Karnataka, India.<br />
-              <a href="tel:+918105068268" aria-label="contact number">+91 810 506 8268</a> <br />
-              <a href="mailto:manthan.ank46@gmail.com" aria-label="email id">manthan.ank46@gmail.com</a>
+              <span class="short-name"></span> <br />
+              <span id="address"></span> <br />
+              <a href="phone" aria-label="contact number" id="phone"></a> <br />
+              <a href="email" aria-label="email id" id="email"></a>
             </p>
           </div>
           <div class="column w-1000-stack">
-            <a href="https://docs.google.com/document/d/1Ba40AaV2Ol5hueeVe5wCI1GeBEtcPJXp3mzm-HZ6BHk/edit?usp=sharing"
-              class="btn btn--download" target="_blank" rel="noopener" aria-label="resume">
+            <a href="resume" class="btn btn--download" target="_blank" rel="noopener" aria-label="resume" id="resume">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                 style="fill: rgba(0, 0, 0, 1);">
                 <path d="M12 16L16 11 13 11 13 4 11 4 11 11 8 11z"></path>
@@ -131,91 +112,7 @@
       <div class="column large-3 tab-12">
         <h3 class="section-header-allcaps">Career</h3>
       </div>
-      <div class="column large-9 tab-12">
-        <div class="experience-block">
-          <div class="experience-block__header">
-            <h4 class="h3">Blackcoffer</h4>
-            <p class="experience-block__header-meta">
-              <span>Software Engineer</span>
-              <span class="experience-block__header-date">
-                Feb 2023 - Present
-              </span>
-            </p>
-          </div>
-          <p>
-            Working as Software Engineer currently. Working in both
-            Front End as well as
-            Backend Projects. Works mostly in dashboard type projects using MEAN Stack. And
-            also manage the projects & deploy it. Angular Framework in Front
-            End & In backend Nodejs. With MongoDB, MySQL, Firebase as Databse.
-          </p>
-        </div>
-        <div class="experience-block">
-          <div class="experience-block__header">
-            <h4 class="h3">AppiVa Software Pvt Ltd</h4>
-            <p class="experience-block__header-meta">
-              <span>Front End Developer</span>
-              <span class="experience-block__header-date">
-                July 2022 - Dec 2022
-              </span>
-            </p>
-          </div>
-          <p>
-            Worked for 6 months as Full Stack Intern. Worked in both Front End as well as
-            Backend Projects. Work is to design and develop in projects. And
-            also manage the projects & deploy it. Angular Framework in Front
-            End & In backend Nodejs + Python. With Frebase as Databse.
-          </p>
-        </div>
-        <div class="experience-block">
-          <div class="experience-block__header">
-            <h4 class="h3">Faclon Labs Pvt Ltd</h4>
-            <p class="experience-block__header-meta">
-              <span>Front End Developer</span>
-              <span class="experience-block__header-date">
-                Nov 2021 - May 2022
-              </span>
-            </p>
-          </div>
-          <p>
-            Worked for 3 months as Intern And 3 months as Full Time Front End
-            Angular Developer. Work was to design and develop in projects like
-            Admin Panel, IOSense(Main Project), Report UI.
-          </p>
-        </div>
-        <div class="experience-block">
-          <div class="experience-block__header">
-            <h4 class="h3">SounderGrad Training Programme</h4>
-            <p class="experience-block__header-meta">
-              <span>Trainee</span>
-              <span class="experience-block__header-date">
-                May 2021 - Aug 2021
-              </span>
-            </p>
-          </div>
-          <p>
-            Completed two months training in front-end development using HTML5, CSS,
-            JavaScript, JSON, RestAPI, Angular. And completed one project in
-            angular ie, Covid-19 Tracker Web Page using API.
-          </p>
-        </div>
-        <div class="experience-block">
-          <div class="experience-block__header">
-            <h4 class="h3">Karanji InfoTech Pvt.Ltd</h4>
-            <p class="experience-block__header-meta">
-              <span>Student Intern</span>
-              <span class="experience-block__header-date">
-                May 2019 - June 2019
-              </span>
-            </p>
-          </div>
-          <p>
-            Completed one month internship and project on machine learning
-            using python “Conversion Text to Speech Construction Using
-            Multiple Data (CSV file)”.
-          </p>
-        </div>
-      </div>
+      <div class="column large-9 tab-12"></div>
     </div>
     <div class="row s-experience__section">
       <div class="column large-3 tab-12">
@@ -243,20 +140,7 @@
       <div class="column large-9 tab-12">
         <div class="experience-block">
           <p>Here are some of my skills</p>
-          <ul class="skill-bars-fat">
-            <li>
-              <div class="progress percent75"></div>
-              <strong>Javascript</strong>
-            </li>
-            <li>
-              <div class="progress percent75"></div>
-              <strong>Angular</strong>
-            </li>
-            <li>
-              <div class="progress percent75"></div>
-              <strong>NodeJs</strong>
-            </li>
-          </ul>
+          <ul class="skill-bars-fat"></ul>
         </div>
       </div>
     </div>
@@ -746,28 +630,7 @@
   <footer class="s-footer">
     <div class="row">
       <div class="column large-4 medium-6 w-1000-stack s-footer__social-block">
-        <ul class="s-footer__social">
-          <li>
-            <a href="https://www.facebook.com/manthanank/" aria-label="facebook link"><i class="fab fa-facebook-f"
-                aria-hidden="true"></i></a>
-          </li>
-          <li>
-            <a href="https://twitter.com/manthan_ank" aria-label="twitter link"><i class="fab fa-twitter"
-                aria-hidden="true"></i></a>
-          </li>
-          <li>
-            <a href="https://www.instagram.com/manthan_ank/" aria-label="instagram link"><i class="fab fa-instagram"
-                aria-hidden="true"></i></a>
-          </li>
-          <li>
-            <a href="https://github.com/manthanank" aria-label="github link"><i class="fab fa-github"
-                aria-hidden="true"></i></a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/in/manthanank" aria-label="linkedin link"><i class="fab fa-linkedin-in"
-                aria-hidden="true"></i></a>
-          </li>
-        </ul>
+        <ul class="s-footer__social"></ul>
       </div>
       <div class="column large-7 medium-6 w-1000-stack ss-copyright">
         <span>© Copyright Ceevee 2021</span>
@@ -783,9 +646,9 @@
       </a>
     </div>
   </footer>
-  <!-- <script defer src="js/vendor/fontawesome/all.min.js"></script> -->
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
+  <script src="/js/data.js"></script>
 </body>
 
 </html>

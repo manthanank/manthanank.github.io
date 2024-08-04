@@ -1,0 +1,270 @@
+{
+  "fullName": "Manthan Ankolekar",
+  "shortName": "Manthan Ank",
+  "title": "Software Engineer",
+  "contact": {
+    "phone": "+91 810 506 8268",
+    "email": "manthan.ank46@gmail.com"
+  },
+  "address": {
+    "state": "Karnataka",
+    "country": "India"
+  },
+  "resumeUrl": "https://docs.google.com/document/d/1Ba40AaV2Ol5hueeVe5wCI1GeBEtcPJXp3mzm-HZ6BHk/edit?usp=sharing",
+  "about": "Hi there! I am Manthan! You might also know me as manthanank. I've been coding over 2 years now. I am a Software Engineer based in Karnataka, India. I have a Bachelor's degree in Computer Science from Sahyadri College of Engineering & Management. I have experience in Front End Development, Back End Development, and Full Stack Development. I have worked on various projects using Angular, Node.js, and MongoDB. I am passionate about coding and always eager to learn new technologies. I am currently working as a Software Engineer at Blackcoffer.",
+  "socialLinks": [
+    {
+      "platform": "facebook",
+      "url": "https://www.facebook.com/manthanank/",
+      "icon": "facebook-square"
+    },
+    {
+      "platform": "twitter",
+      "url": "https://twitter.com/manthan_ank",
+      "icon": "x-twitter"
+    },
+    {
+      "platform": "instagram",
+      "url": "https://www.instagram.com/manthan_ank/",
+      "icon": "instagram"
+    },
+    {
+      "platform": "github",
+      "url": "https://github.com/manthanank",
+      "icon": "github"
+    },
+    {
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/in/manthanank",
+      "icon": "linkedin"
+    }
+  ],
+  "career": [
+    {
+      "company": "Blackcoffer",
+      "position": "Software Engineer",
+      "startDate": "Feb 2023",
+      "endDate": "Present",
+      "description": "Working as Software Engineer currently. Working in both Front End as well as Backend Projects. Works mostly in dashboard type projects using MEAN Stack. And also manage the projects & deploy it. Angular Framework in Front End & In backend Nodejs. With MongoDB, MySQL, Firebase as Databse."
+    },
+    {
+      "company": "AppiVa Software Pvt Ltd",
+      "position": "Front End Developer",
+      "startDate": "Jul 2022",
+      "endDate": "Dec 2022",
+      "description": "Worked for 6 months as Full Stack Intern. Worked in both Front End as well as Backend Projects. Work is to design and develop in projects. And also manage the projects & deploy it. Angular Framework in Front End & In backend Nodejs + Python. With Frebase as Databse."
+    },
+    {
+      "company": "Faclon Labs Pvt Ltd",
+      "position": "Front End Developer",
+      "startDate": "Nov 2021",
+      "endDate": "May 2022",
+      "description": "Worked for 3 months as Intern And 3 months as Full Time Front End Angular Developer. Work was to design and develop in projects like Admin Panel, IOSense(Main Project), Report UI."
+    },
+    {
+      "company": "SounderGrad Training Programme",
+      "position": "Trainee",
+      "startDate": "May 2021",
+      "endDate": "Aug 2021",
+      "description": "Completed two months training in front-end development using HTML5, CSS, JavaScript, JSON, RestAPI, Angular. And completed one project in angular ie, Covid-19 Tracker Web Page using API."
+    },
+    {
+      "company": "Karanji InfoTech Pvt.Ltd",
+      "position": "Student Intern",
+      "startDate": "May 2019",
+      "endDate": "June 2019",
+      "description": "Completed one month internship and project on machine learning using python “Conversion Text to Speech Construction Using Multiple Data (CSV file)”."
+    }
+  ],
+  "education": [
+    {
+      "institution": "Sahyadri College of Engineering & Management",
+      "degree": "Bachelor of Engineering",
+      "startYear": "2016",
+      "endYear": "2020",
+      "description": "Graduated in Computer Science"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Angular",
+      "level": "80%"
+    },
+    {
+      "name": "Node.js",
+      "level": "70%"
+    },
+    {
+      "name": "JavaScript",
+      "level": "80%"
+    }
+  ],
+  "projects": [
+    {
+      "id": "modal-01",
+      "title": "Netflix Clone",
+      "description": "This is a Netflix Clone built using React. It fetches movie data from the TMDB API and displays it on the homepage. Users can click on a movie to view more details about it. The app also includes features like searching for movies and viewing movie trailers.",
+      "technologies": [
+        "React"
+      ],
+      "image": "assets/images/projects/netflix-clone.webp",
+      "link": "https://github.com/manthanank/netflix-clone-react-app"
+    },
+    {
+      "id": "modal-02",
+      "title": "Covid 19 Tracker Page",
+      "description": "This is a Covid-19 Tracker Page built using Angular. It fetches data from the disease.sh API and displays it on the homepage. Users can view global statistics as well as statistics for individual countries. The app also includes features like searching for countries and viewing historical data.",
+      "technologies": [
+        "Angular"
+      ],
+      "image": "assets/images/projects/covid19-tracker-page.webp",
+      "link": "https://github.com/manthanank/covid19-tracker-angular-app"
+    },
+    {
+      "id": "modal-03",
+      "title": "Modern Cryptopunk Clone - React",
+      "description": "This is a Modern Cryptopunk Clone built using React. It allows users to explore and collect virtual cryptopunk characters. The app includes features like browsing different cryptopunks, viewing detailed information about each character, and adding them to a user's collection. Users can also buy and sell cryptopunks in the marketplace.",
+      "technologies": [
+        "React"
+      ],
+      "image": "assets/images/projects/modern-cryptopunk-clone-react.webp",
+      "link": "https://github.com/manthanank/modern-cryptopunk-clone-react-app"
+    },
+    {
+      "id": "modal-04",
+      "title": "Upload Post Page",
+      "description": "This is an Upload Post Page built using Angular. It allows users to upload images and post them on the homepage. Users can view posts from other users, like and comment on posts, and search for specific posts. The app also includes features like user authentication and authorization. MongoDB is used for data storage. Users can register an account, log in, and manage their posts. Backend is built using Node.js.",
+      "technologies": [
+        "MEAN Stack"
+      ],
+      "image": "assets/images/projects/upload-post-page.webp",
+      "link": "https://github.com/manthanank/upload-post-app"
+    },
+    {
+      "id": "modal-05",
+      "title": "Full Stack Blog App",
+      "description": "This is a Full Stack Blog App that allows users to create, read, update, and delete blog posts. It is built using Angular for the frontend, and Node.js and MongoDB for the backend. Users can register an account, log in, and manage their blog posts. The app also includes features like commenting on blog posts and searching for specific posts.",
+      "technologies": [
+        "MEAN Stack"
+      ],
+      "image": "assets/images/projects/full-stack-blog-app.webp",
+      "link": "https://github.com/manthanank/blog-app"
+    },
+    {
+      "id": "modal-06",
+      "title": "Generate Slug App",
+      "description": "This is a Generate Slug App that allows users to generate a slug from a given string. It is built using Angular for the frontend. Users can enter a string and generate a slug from it. The app also includes features like copying the slug to the clipboard and resetting the input field.",
+      "technologies": [
+        "Angular"
+      ],
+      "image": "assets/images/projects/generate-slug-app.webp",
+      "link": "https://github.com/manthanank/generate-slug-app"
+    },
+    {
+      "id": "modal-07",
+      "title": "Weather App - Angular(PWA)",
+      "description": "This is a Weather App built using Angular. It fetches weather data from the OpenWeatherMap API and displays it on the homepage. Users can view the current weather, hourly forecast, and daily forecast for a specific location. The app also includes features like searching for locations and viewing weather alerts.",
+      "technologies": [
+        "Angular"
+      ],
+      "image": "assets/images/projects/weather-app-pwa.webp",
+      "link": "https://github.com/manthanank/weather-app"
+    },
+    {
+      "id": "modal-08",
+      "title": "Weather App - Angular",
+      "description": "This is a Weather App built using Angular. It fetches weather data from the OpenWeatherMap API and displays it on the homepage. Users can view the current weather, hourly forecast, and daily forecast for a specific location. The app also includes features like searching for locations and viewing weather alerts.",
+      "technologies": [
+        "Angular"
+      ],
+      "image": "assets/images/projects/weather-app-angular.webp",
+      "link": "https://github.com/manthanank/weather-app-angular"
+    },
+    {
+      "id": "modal-09",
+      "title": "Fitness Tracker App - Angular",
+      "description": "This is a Fitness Tracker App built using Angular and Firebase. It allows users to track their daily workouts and view their workout history. The app also includes features like filtering workouts by date and viewing workout statistics.",
+      "technologies": [
+        "Angular"
+      ],
+      "image": "assets/images/projects/fitness-tracker-app.webp",
+      "link": "https://github.com/manthanank/fitness-tracker-angular-firebase-app"
+    },
+    {
+      "id": "modal-10",
+      "title": "Digital Resume",
+      "description": "This is a Digital Resume built using HTML, CSS, and JavaScript. It is a single-page website that showcases my personal information, skills, experience, and projects. The website is fully responsive and optimized for all devices.",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "image": "assets/images/projects/digital-resume.webp",
+      "link": "https://github.com/manthanank/fitness-tracker-angular-firebase-app"
+    },
+    {
+      "id": "modal-11",
+      "title": "Food Store App - Angular",
+      "description": "This is a Food Store App built using Angular. It allows users to browse different food items, add them to the cart, and place an order. The app also includes features like searching for food items, viewing order history, and managing user accounts. Users can register an account, log in, and view their profile. Firebase is used for authentication and data storage.",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "image": "assets/images/projects/food-store-app.webp",
+      "link": "https://github.com/manthanank/food-store-app-angular"
+    },
+    {
+      "id": "modal-12",
+      "title": "Contact Page",
+      "description": "This is a Contact Page built using HTML, CSS, and JavaScript. It is a single-page website to contact me. The website is fully responsive and optimized for all devices. It also includes features like sending an message to me. It is a simple contact page. Messages are stored in the database.",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "image": "assets/images/projects/contact-page.webp",
+      "link": "https://github.com/manthanank/contact"
+    },
+    {
+      "id": "modal-13",
+      "title": "LinkTree Clone App - Angular",
+      "description": "This is a LinkTree Clone App built using Angular. It allows users to create a custom landing page with links to their social media profiles, websites, and other online content. The app includes features like adding, editing, and deleting links and sharing the page with others.",
+      "technologies": [
+        "Angular"
+      ],
+      "image": "assets/images/projects/linktree-clone-app.webp",
+      "link": "https://github.com/manthanank/linktree-clone-angular"
+    },
+    {
+      "id": "modal-14",
+      "title": "QR Code Generator App - Angular",
+      "description": "This is a QR Code Generator App built using Angular. It allows users to generate QR codes for URLs, text, phone numbers, and email addresses.",
+      "technologies": [
+        "Angular"
+      ],
+      "image": "assets/images/projects/qr-code-generator-app.webp",
+      "link": "https://github.com/manthanank/qr-code-generator-angular-app"
+    },
+    {
+      "id": "modal-15",
+      "title": "URL Shortener App",
+      "description": "This is a URL Shortener App built using Angular. It allows users to shorten long URLs and share them with others. The app includes features like generating short URLs, copying them to the clipboard, and viewing all shorten URL. Backend is built using Node.js and MongoDB.",
+      "technologies": [
+        "MEAN Stack"
+      ],
+      "image": "assets/images/projects/url-shortener-app.webp",
+      "link": "https://github.com/manthanank/url-shortener-app"
+    },
+    {
+      "id": "modal-16",
+      "title": "Expense Tracker App",
+      "description": "This is an Expense Tracker App built using Angular. It allows users to track their income and expenses, view their transaction history, and analyze their spending habits. The app includes features like adding, editing, and deleting transactions, filtering transactions by date, and viewing transaction statistics. Backend is built using Node.js and MongoDB.",
+      "technologies": [
+        "MEAN Stack"
+      ],
+      "image": "assets/images/projects/expense-tracker-app.webp",
+      "link": "https://github.com/manthanank/expense-tracker-app"
+    }
+  ]
+}
