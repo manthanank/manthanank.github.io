@@ -72,10 +72,65 @@ fetch("data.json")
 
     education.forEach((edu) => {
       // console.log(edu);
+      document.querySelector(".s-experience").innerHTML += `
+      <div class="target-section">
+        <div class="row s-experience__section">
+          <div class="column large-3 tab-12">
+            <h3 class="section-header-allcaps">Education</h3>
+          </div>
+          <div class="column large-9 tab-12">
+            <div class="experience-block">
+              <div class="experience-block__header">
+                <h4 class="h3">${edu.institution}</h4>
+                <p class="experience-block__header-meta">
+                  <span>${edu.degree}</span>
+                  <span class="experience-block__header-date">
+                    ${edu.startYear} - ${edu.endYear}
+                  </span>
+                </p>
+              </div>
+              <p>${edu.description}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      `;
     });
 
     projects.forEach((project) => {
       // console.log(project);
     });
+    
+    document.querySelector("#contact .column.large-12").innerHTML = `
+      <h3 class="section-header-allcaps">Contact</h3>
+      <div class="row s-contact__content">
+        <div class="column large-7 medium-12">
+          <h4 class="huge-text">You can contact me through this.👉</h4>
+        </div>
+        <div class="column large-4 medium-12">
+          <div class="row contact-infos">
+            <div class="column large-12 medium-6 tab-12">
+              <div class="contact-block">
+                <h5 class="contact-block__header">Email</h5>
+                <p class="contact-block__content">
+                  <a class="mailtoui" href="mailto:${email}" aria-label="email to">${email}</a>
+                </p>
+              </div>
+            </div>
+            <div class="column large-12 medium-6 tab-12">
+              <div class="contact-block">
+                <h5 class="contact-block__header">Phone</h5>
+                <p class="contact-block__content">
+                  <a href="tel:${phone}" aria-label="contact number">${phone}</a>
+                </p>
+              </div>
+            </div>
+            <div class="column large-12">
+              <a href="mailto:${email}" class="mailtoui btn h-full-width" aria-label="email id">Let's Talk</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    `;
   })
   .catch((error) => console.error("Error fetching JSON:", error));
