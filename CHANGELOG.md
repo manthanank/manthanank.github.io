@@ -1,3 +1,12 @@
+# [1.18.0](https://github.com/manthanank/manthanank.github.io/compare/v1.17.0...v1.18.0) (2024-08-05)
+
+
+### Features
+
+* Add new project modals for Todo's App, WiFi QR Code Generator App, and ChatGPT Clone App ([dc0028f](https://github.com/manthanank/manthanank.github.io/commit/dc0028ff7080d92108db81d327682a2f0890956a))
+
+
+
 # [1.17.0](https://github.com/manthanank/manthanank.github.io/compare/v1.16.0...v1.17.0) (2024-07-18)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * Add QR Code Generator App project to index.html ([d6b9772](https://github.com/manthanank/manthanank.github.io/commit/d6b97723a64133aacb55cf61b80d6789a9f67e6e))
-
-
-
-# [1.13.0](https://github.com/manthanank/manthanank.github.io/compare/v1.11.0...v1.13.0) (2024-07-06)
-
-
-### Features
-
-* Add new project images to index.html ([c8a38ce](https://github.com/manthanank/manthanank.github.io/commit/c8a38cecab2e34d167a7cbe9c84aaf14a56df8bb))
 
 
 
