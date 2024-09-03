@@ -1,3 +1,12 @@
+# [1.19.0](https://github.com/manthanank/manthanank.github.io/compare/v1.18.0...v1.19.0) (2024-08-15)
+
+
+### Features
+
+* Add education and contact sections to resume page ([fd0decf](https://github.com/manthanank/manthanank.github.io/commit/fd0decf88c9a3aba5e71a2a8ead4dabca784414a))
+
+
+
 # [1.18.0](https://github.com/manthanank/manthanank.github.io/compare/v1.17.0...v1.18.0) (2024-08-05)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * Add new project images to index.html ([3cc2dac](https://github.com/manthanank/manthanank.github.io/commit/3cc2dac136dbade66398fddbdef5437ad06bacb3))
-
-
-
-# [1.14.0](https://github.com/manthanank/manthanank.github.io/compare/v1.13.0...v1.14.0) (2024-07-06)
-
-
-### Features
-
-* Add QR Code Generator App project to index.html ([d6b9772](https://github.com/manthanank/manthanank.github.io/commit/d6b97723a64133aacb55cf61b80d6789a9f67e6e))
 
 
 
