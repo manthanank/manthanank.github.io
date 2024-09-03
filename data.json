@@ -1,17 +1,5 @@
 {
-  "fullName": "Manthan Ankolekar",
-  "shortName": "Manthan Ank",
-  "title": "Software Engineer",
-  "contact": {
-    "phone": "+91 810 506 8268",
-    "email": "manthan.ank46@gmail.com"
-  },
-  "address": {
-    "state": "Karnataka",
-    "country": "India"
-  },
   "resumeUrl": "https://docs.google.com/document/d/1Ba40AaV2Ol5hueeVe5wCI1GeBEtcPJXp3mzm-HZ6BHk/edit?usp=sharing",
-  "about": "Hi there! I am Manthan! You might also know me as manthanank. I've been coding over 2 years now. I am a Software Engineer based in Karnataka, India. I have a Bachelor's degree in Computer Science from Sahyadri College of Engineering & Management. I have experience in Front End Development, Back End Development, and Full Stack Development. I have worked on various projects using Angular, Node.js, and MongoDB. I am passionate about coding and always eager to learn new technologies. I am currently working as a Software Engineer at Blackcoffer.",
   "socialLinks": [
     {
       "platform": "facebook",
@@ -49,14 +37,14 @@
     },
     {
       "company": "AppiVa Software Pvt Ltd",
-      "position": "Front End Developer",
+      "position": "Full Stack Developer Intern",
       "startDate": "Jul 2022",
       "endDate": "Dec 2022",
       "description": "Worked for 6 months as Full Stack Intern. Worked in both Front End as well as Backend Projects. Work is to design and develop in projects. And also manage the projects & deploy it. Angular Framework in Front End & In backend Nodejs + Python. With Frebase as Databse."
     },
     {
       "company": "Faclon Labs Pvt Ltd",
-      "position": "Front End Developer",
+      "position": "Angular Developer Intern",
       "startDate": "Nov 2021",
       "endDate": "May 2022",
       "description": "Worked for 3 months as Intern And 3 months as Full Time Front End Angular Developer. Work was to design and develop in projects like Admin Panel, IOSense(Main Project), Report UI."
