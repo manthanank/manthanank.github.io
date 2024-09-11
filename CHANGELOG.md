@@ -1,3 +1,12 @@
+# [1.21.0](https://github.com/manthanank/manthanank.github.io/compare/v1.20.0...v1.21.0) (2024-09-11)
+
+
+### Features
+
+* Update career section in data.json and about me section in index.html ([d8bdc9f](https://github.com/manthanank/manthanank.github.io/commit/d8bdc9fbe902a296169b4428299905b0df25699a))
+
+
+
 # [1.20.0](https://github.com/manthanank/manthanank.github.io/compare/v1.19.0...v1.20.0) (2024-09-03)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * Optimize image format for upload-post-page.webp ([9af463b](https://github.com/manthanank/manthanank.github.io/commit/9af463bb25230accb29724e9fa424656110eb007))
-
-
-
-# [1.16.0](https://github.com/manthanank/manthanank.github.io/compare/v1.15.0...v1.16.0) (2024-07-08)
-
-
-### Features
-
-* Update QR Code Generator App image to use webp format ([32bb2f3](https://github.com/manthanank/manthanank.github.io/commit/32bb2f3de47910dba6f61a037dcc1849a54e16c6))
 
 
 
