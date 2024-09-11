@@ -1,3 +1,12 @@
+# [1.20.0](https://github.com/manthanank/manthanank.github.io/compare/v1.19.0...v1.20.0) (2024-09-03)
+
+
+### Features
+
+* Update resume page with education and contact sections ([f3a0acb](https://github.com/manthanank/manthanank.github.io/commit/f3a0acba5ec0e1e02e8b336a4d7fdcc4b6cb0baf))
+
+
+
 # [1.19.0](https://github.com/manthanank/manthanank.github.io/compare/v1.18.0...v1.19.0) (2024-08-15)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * Update QR Code Generator App image to use webp format ([32bb2f3](https://github.com/manthanank/manthanank.github.io/commit/32bb2f3de47910dba6f61a037dcc1849a54e16c6))
-
-
-
-# [1.15.0](https://github.com/manthanank/manthanank.github.io/compare/v1.14.0...v1.15.0) (2024-07-06)
-
-
-### Features
-
-* Add new project images to index.html ([3cc2dac](https://github.com/manthanank/manthanank.github.io/commit/3cc2dac136dbade66398fddbdef5437ad06bacb3))
 
 
 
