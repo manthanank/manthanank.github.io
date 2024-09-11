@@ -29,11 +29,18 @@
   ],
   "career": [
     {
+      "company": "Stellar Innvoations Pvt Ltd",
+      "position": "Software Developer",
+      "startDate": "Sep 2024",
+      "endDate": "Present",
+      "description": "Working as Software Developer currently. Working in both Front End as well as Backend Projects."
+    },
+    {
       "company": "Blackcoffer",
       "position": "Software Engineer",
       "startDate": "Feb 2023",
-      "endDate": "Present",
-      "description": "Working as Software Engineer currently. Working in both Front End as well as Backend Projects. Works mostly in dashboard type projects using MEAN Stack. And also manage the projects & deploy it. Angular Framework in Front End & In backend Nodejs. With MongoDB, MySQL, Firebase as Databse."
+      "endDate": "Aug 2024",
+      "description": "Worked as Software Engineer. Worked in both Front End as well as Backend Projects. Works mostly in dashboard type projects using MEAN Stack. And also manage the projects & deploy it. Angular Framework in Front End & In backend Nodejs. With MongoDB, MySQL, Firebase as Databse."
     },
     {
       "company": "AppiVa Software Pvt Ltd",
