@@ -4437,7 +4437,7 @@ button.btn--pill {
   display: inline-block;
   min-height: var(--vspace-2);
   margin-bottom: var(--vspace-0_5);
-  padding-left: 8.8rem;
+  /* padding-left: 8.8rem; */
   position: relative;
 }
 
