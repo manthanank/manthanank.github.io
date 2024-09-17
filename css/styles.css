@@ -4484,11 +4484,11 @@ button.btn--pill {
   }
 }
 
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
   .testimonial-slider__author {
     padding-left: 6.8rem;
   }
-}
+} */
 
 @media screen and (max-width: 400px) {
   .testimonial-slider__author {
