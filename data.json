@@ -29,39 +29,46 @@
   ],
   "career": [
     {
+      "company": "Senwell Group Pvt Ltd",
+      "position": "Software Developer",
+      "startDate": "Oct 2024",
+      "endDate": "Present",
+      "description": "Contributed to enhancing and maintaining Angular-based applications for recruitment platforms and tolling & traffic management systems. Collaborated with cross-functional teams, including designers, backend developers, and product managers, to implement new features and resolve issues. Worked on microservice architectures, ensuring efficient communication between services and integrating them with front-end applications. Focused on creating efficient, user-centric applications while following industry best practices for scalability and maintainability."
+    },
+    {
       "company": "Blackcoffer",
       "position": "Software Engineer",
       "startDate": "Feb 2023",
       "endDate": "Aug 2024",
-      "description": "Worked as Software Engineer. Worked in both Front End as well as Backend Projects. Works mostly in dashboard type projects using MEAN Stack. And also manage the projects & deploy it. Angular Framework in Front End & In backend Nodejs. With MongoDB, MySQL, Firebase as Databse."
+      "description": "Designed and developed an API dashboard using Angular, incorporating distinct user and admin roles, and integrated backend APIs for dynamic data management. Built a multi-role hospital management system with Angular, Node.js, and MySQL, deploying it on AWS to ensure scalability and reliability. Integrated real-time notifications using WebSockets for timely updates on user actions in the hospital management system. Refactored and optimized the code, reducing the build size by more than 50%, and maintained system performance with continuous updates based on user feedback."
     },
     {
       "company": "AppiVa Software Pvt Ltd",
       "position": "Full Stack Developer Intern",
       "startDate": "Jul 2022",
       "endDate": "Dec 2022",
-      "description": "Worked for 6 months as Full Stack Intern. Worked in both Front End as well as Backend Projects. Work is to design and develop in projects. And also manage the projects & deploy it. Angular Framework in Front End & In backend Nodejs + Python. With Frebase as Databse."
+      "description": "Enhanced an existing application by adding new features. Provided ongoing maintenance and optimization for the system. Used Angular, Node.js, Python, and Firebase for the frontend, backend, and real-time data management, deploying the solution on AWS. Ensured application performance post-deployment by monitoring, troubleshooting, and addressing issues."
     },
     {
       "company": "Faclon Labs Pvt Ltd",
       "position": "Angular Developer Intern",
       "startDate": "Nov 2021",
       "endDate": "May 2022",
-      "description": "Worked for 3 months as Intern And 3 months as Full Time Front End Angular Developer. Work was to design and develop in projects like Admin Panel, IOSense(Main Project), Report UI."
+      "description": "Collaborated on Angular-based projects, including developing an admin panel and user interfaces for specific products. Applied Angular best practices such as modular architecture and reusable components to streamline development. Integrated backend RESTful APIs and conducted comprehensive testing to maintain application quality."
     },
     {
       "company": "SounderGrad Training Programme",
       "position": "Trainee",
       "startDate": "May 2021",
       "endDate": "Aug 2021",
-      "description": "Completed two months training in front-end development using HTML5, CSS, JavaScript, JSON, RestAPI, Angular. And completed one project in angular ie, Covid-19 Tracker Web Page using API."
+      "description": "Completed training in HTML, CSS, JavaScript, jQuery, and Angular, focusing on dynamic, responsive web applications. Improved skills in API integration and asynchronous data handling with Angular. Developed a Corona Tracker application using Angular and REST APIs. Integrated real-time data from APIs to display COVID-19 statistics."
     },
     {
       "company": "Karanji InfoTech Pvt.Ltd",
       "position": "Student Intern",
       "startDate": "May 2019",
       "endDate": "June 2019",
-      "description": "Completed one month internship and project on machine learning using python “Conversion Text to Speech Construction Using Multiple Data (CSV file)”."
+      "description": "Gained foundational knowledge and experience in machine learning concepts. Explored Python libraries and frameworks for implementing speech synthesis. Developed a text-to-speech conversion application in Python, utilizing relevant libraries to convert text into audio."
     }
   ],
   "education": [
