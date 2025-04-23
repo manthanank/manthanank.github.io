@@ -261,5 +261,12 @@
       "image": "assets/images/projects/expense-tracker-app.webp",
       "link": "https://github.com/manthanank/expense-tracker-app"
     }
+  ],
+  "testimonials": [
+    {
+      "name": "Renee DiMuzio",
+      "position": "Director of Marketing and Business Development Manager, Altrix Group",
+      "content": "Manthan worked with our team for approximately two years as a software developer. During this time, he consistently performed the tasks assigned to him and his team and contributed to completing several key projects. Manthan demonstrated a solid understanding of software development fundamentals and was able to deliver work within the expected timeframes. He remained a steady and dependable team member, capable of working within the scope of his responsibilities. Manthan would be a good fit for roles that require a diligent and consistent software developer. He will bring value to any team looking for someone to complete tasks efficiently and with attention to detail."
+    }
   ]
 }

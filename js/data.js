@@ -1,7 +1,8 @@
 fetch("data.json")
   .then((response) => response.json())
   .then((data) => {
-    const { resumeUrl, skills, socialLinks, career, education } = data;
+    const { resumeUrl, skills, socialLinks, career, education, projects, testimonials } =
+      data;
 
     // Set resume link dynamically
     const resumeEl = document.getElementById("resume");
@@ -48,7 +49,9 @@ fetch("data.json")
 
     // Render Career
     function renderCareer(career) {
-      const careerSection = document.querySelectorAll(".s-experience__section .column.large-9")[0];
+      const careerSection = document.querySelectorAll(
+        ".s-experience__section .column.large-9"
+      )[0];
       if (!careerSection) return;
       careerSection.innerHTML = "";
       career.forEach((job) => {
@@ -76,9 +79,11 @@ fetch("data.json")
       const experienceSection = document.querySelector(".s-experience");
       if (!experienceSection) return;
       // Remove previous education sections if any
-      experienceSection.querySelectorAll('.education-section').forEach(e => e.remove());
-      const eduSection = document.createElement('div');
-      eduSection.className = 'target-section education-section';
+      experienceSection
+        .querySelectorAll(".education-section")
+        .forEach((e) => e.remove());
+      const eduSection = document.createElement("div");
+      eduSection.className = "target-section education-section";
       eduSection.innerHTML = `
         <div class="row s-experience__section">
           <div class="column large-3 tab-12">
@@ -88,10 +93,10 @@ fetch("data.json")
         </div>
       `;
       experienceSection.appendChild(eduSection);
-      const eduList = eduSection.querySelector('#edu-list');
+      const eduList = eduSection.querySelector("#edu-list");
       education.forEach((edu) => {
-        const block = document.createElement('div');
-        block.className = 'experience-block';
+        const block = document.createElement("div");
+        block.className = "experience-block";
         block.innerHTML = `
           <div class="experience-block__header">
             <h4 class="h3">${edu.institution}</h4>
@@ -108,9 +113,162 @@ fetch("data.json")
       });
     }
 
+    // Render Projects
+    function renderProjects(projects) {
+      if (!projects || !projects.length) return;
+
+      // Get projects container
+      const projectsContainer = document.querySelector(".folio-list");
+      if (!projectsContainer) return;
+
+      // Clear existing content
+      projectsContainer.innerHTML = "";
+
+      // Create projects list
+      projects.forEach((project) => {
+        // Create project item
+        const projectItem = document.createElement("div");
+        projectItem.className = "column folio-item";
+
+        // Create project thumbnail with link to modal
+        projectItem.innerHTML = `
+          <a href="#modal-${project.id}" class="folio-item__thumb" aria-label="${project.title} project">
+            <img src="${project.image}" srcset="${project.image}, ${project.image}" alt="${project.title}" width="100%" height="100%" />
+          </a>
+        `;
+
+        // Add to container
+        projectsContainer.appendChild(projectItem);
+
+        // Create modal for the project
+        const modalContainer = document.createElement("div");
+        modalContainer.id = `modal-${project.id}`;
+        modalContainer.style.display = "none";
+
+        // Create modal content
+        let techStackHtml = "";
+        if (project.technologies && project.technologies.length) {
+          techStackHtml = project.technologies
+            .map((tech) => `<li>${tech}</li>`)
+            .join("");
+        }
+
+        modalContainer.innerHTML = `
+          <div class="modal-popup">
+            <img src="${project.image}" alt="${project.title}" />
+            <div class="modal-popup__desc">
+              <h5>${project.title}</h5>
+              <p>${project.description}</p>
+              <ul class="modal-popup__cat">
+                ${techStackHtml}
+              </ul>
+            </div>
+            <a href="${project.link}" class="modal-popup__details" target="_blank" rel="noopener noreferrer">Project link</a>
+          </div>
+        `;
+
+        // Add modal to the document body instead of the projects section
+        document.body.appendChild(modalContainer);
+      });
+
+      // Initialize lightbox after adding modals
+      initProjectModals();
+    }
+
+    // Initialize modals for projects
+    function initProjectModals() {
+      // Wait for DOM to be fully loaded
+      setTimeout(() => {
+        const folioLinks = document.querySelectorAll(".folio-item a");
+        const modals = [];
+
+        folioLinks.forEach(function (link) {
+          let modalbox = link.getAttribute("href");
+          let instance = basicLightbox.create(
+            document.querySelector(modalbox),
+            {
+              onShow: function (instance) {
+                document.addEventListener("keydown", function (evt) {
+                  evt = evt || window.event;
+                  if (evt.keyCode === 27) {
+                    instance.close();
+                  }
+                });
+              },
+            }
+          );
+          modals.push(instance);
+        });
+
+        folioLinks.forEach(function (link, index) {
+          link.addEventListener("click", function (e) {
+            e.preventDefault();
+            modals[index].show();
+          });
+        });
+      }, 300);
+    }
+
+    // Render Testimonials
+    function renderTestimonials(testimonials) {
+      if (!testimonials || !testimonials.length) return;
+      
+      // Get testimonials container
+      const testimonialsWrapper = document.querySelector(".swiper-wrapper");
+      if (!testimonialsWrapper) return;
+      
+      // Clear existing content
+      testimonialsWrapper.innerHTML = "";
+      
+      // Create testimonials slides
+      testimonials.forEach((testimonial) => {
+        const slide = document.createElement("div");
+        slide.className = "testimonial-slider__slide swiper-slide";
+        
+        slide.innerHTML = `
+          <div class="testimonial-slider__author">
+            <cite class="testimonial-slider__cite">
+              <strong>${testimonial.name}</strong>
+              <span>${testimonial.position}</span>
+            </cite>
+          </div>
+          <p>${testimonial.content}</p>
+        `;
+        
+        testimonialsWrapper.appendChild(slide);
+      });
+      
+      // Initialize Swiper after adding slides
+      setTimeout(() => {
+        if (typeof Swiper !== 'undefined') {
+          new Swiper(".testimonial-slider", {
+            slidesPerView: 1,
+            pagination: {
+              el: ".swiper-pagination",
+              clickable: true,
+            },
+            breakpoints: {
+              // when window width is >= 400px
+              400: {
+                slidesPerView: 1,
+                spaceBetween: 20
+              },
+              // when window width is >= 800px
+              800: {
+                slidesPerView: 1,
+                spaceBetween: 32
+              }
+            }
+          });
+        }
+      }, 300);
+    }
+
     renderSkills(skills);
     renderSocialLinks(socialLinks);
     renderCareer(career);
     renderEducation(education);
+    renderProjects(projects);
+    renderTestimonials(testimonials); // Add this line to render testimonials
   })
   .catch((error) => console.error("Error fetching JSON:", error));
