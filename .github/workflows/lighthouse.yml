@@ -1,0 +1,29 @@
+name: Lighthouse CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  # Allow manual triggers
+  workflow_dispatch:
+
+jobs:
+  lighthouse:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Install Lighthouse CI
+        run: npm install -g @lhci/cli@0.12.x
+        
+      - name: Run Lighthouse CI
+        run: |
+          lhci autorun --collect.url=https://${{ github.repository_owner }}.github.io/ --upload.target=temporary-public-storage
+        env:
+          LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}
