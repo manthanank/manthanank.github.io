@@ -31,7 +31,7 @@ jobs:
           # No build step needed for simple HTML/CSS/JS site
           echo "Ready to deploy static files"
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2
+        uses: actions/upload-pages-artifact@v3
         with:
           path: '.'
           
