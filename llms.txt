@@ -1,0 +1,46 @@
+# Manthan Ankolekar's Portfolio
+
+> Personal portfolio website of Manthan Ankolekar, a full-stack developer with 2+ years of professional experience specializing in Angular, Node.js, and MEAN stack development. Based in Karnataka, India.
+
+## About
+
+I'm a Software Engineer with expertise in full-stack web development. I graduated with a B.E. in Computer Science from Sahyadri College of Engineering & Management and have professional experience working at companies like Senwell Group, Blackcoffer, and AppiVa Software. I'm passionate about building practical applications and continuously learning new technologies.
+
+**Key Technologies**: Angular, Node.js, JavaScript, TypeScript, MongoDB, MySQL, Firebase, AWS, Python
+
+**Current Role**: Software Developer at Senwell Group Pvt Ltd (Oct 2024 - Present)
+
+## Professional Experience
+
+- [Resume](https://docs.google.com/document/d/1Ba40AaV2Ol5hueeVe5wCI1GeBEtcPJXp3mzm-HZ6BHk/edit?usp=sharing): Complete professional resume with detailed work experience
+- [LinkedIn Profile](https://www.linkedin.com/in/manthanank): Professional networking profile with career history
+
+## Portfolio Sections
+
+- [About Me](/#about): Professional background and introduction
+- [Experience](/#experience): Detailed work experience timeline
+- [Projects](/#projects): Showcase of personal and professional projects
+- [Skills](/#about): Technical skills and proficiency levels
+- [Contact](/#contact): Contact information and social media links
+
+## Projects
+
+- [Netflix Clone](https://github.com/manthanank/netflix-clone): React-based streaming platform clone with TMDB API integration
+- [COVID-19 Tracker](https://github.com/manthanank/covid19-tracker): Angular application for tracking COVID-19 statistics
+- [Weather Apps](https://github.com/manthanank/weather-app-angular): Multiple weather applications built with Angular and PWA technologies
+- [Full-Stack Blog App](https://github.com/manthanank/blog-app): Complete blogging platform with MEAN stack
+- [URL Shortener](https://github.com/manthanank/url-shortener): URL shortening service application
+- [Expense Tracker](https://github.com/manthanank/expense-tracker): Personal finance management application
+
+## Social & Contact
+
+- [GitHub](https://github.com/manthanank): Source code repositories and contributions
+- [Twitter/X](https://twitter.com/manthan_ank): Professional updates and tech discussions
+- [Instagram](https://www.instagram.com/manthan_ank/): Personal updates and behind-the-scenes content
+- [Email](mailto:manthan.ank46@gmail.com): Direct contact for professional inquiries
+
+## Optional
+
+- [Facebook](https://www.facebook.com/manthanank/): Personal social media profile
+- [Portfolio Images](https://manthanank.github.io/assets/images/): Profile pictures and project screenshots
+- [Project Data](https://manthanank.github.io/data.json): Structured data for portfolio content
