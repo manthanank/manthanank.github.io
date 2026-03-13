@@ -83,15 +83,31 @@
   "skills": [
     {
       "name": "Angular",
-      "level": "80%"
+      "percentage": "80"
     },
     {
       "name": "Node.js",
-      "level": "70%"
+      "percentage": "70"
     },
     {
       "name": "JavaScript",
-      "level": "80%"
+      "percentage": "80"
+    },
+    {
+      "name": "MongoDB",
+      "percentage": "75"
+    },
+    {
+      "name": "MySQL",
+      "percentage": "70"
+    },
+    {
+      "name": "Firebase",
+      "percentage": "75"
+    },
+    {
+      "name": "Python",
+      "percentage": "65"
     }
   ],
   "projects": [
@@ -195,16 +211,15 @@
         "JavaScript"
       ],
       "image": "assets/images/projects/digital-resume.webp",
-      "link": "https://github.com/manthanank/fitness-tracker-angular-firebase-app"
+      "link": "https://github.com/manthanank/manthanank.github.io"
     },
     {
       "id": "11",
       "title": "Food Store App - Angular",
       "description": "This is a Food Store App built using Angular. It allows users to browse different food items, add them to the cart, and place an order. The app also includes features like searching for food items, viewing order history, and managing user accounts. Users can register an account, log in, and view their profile. Firebase is used for authentication and data storage.",
       "technologies": [
-        "HTML",
-        "CSS",
-        "JavaScript"
+        "Angular",
+        "Firebase"
       ],
       "image": "assets/images/projects/food-store-app.webp",
       "link": "https://github.com/manthanank/food-store-app-angular"
@@ -260,6 +275,49 @@
       ],
       "image": "assets/images/projects/expense-tracker-app.webp",
       "link": "https://github.com/manthanank/expense-tracker-app"
+    },
+    {
+      "id": "17",
+      "title": "ChatGPT Clone App",
+      "description": "This is a ChatGPT Clone built using React and the OpenAI API. It allows users to have conversations with an AI assistant that behaves like ChatGPT. The app includes features like message history, multiple chat sessions, and a responsive UI.",
+      "technologies": [
+        "React",
+        "OpenAI API"
+      ],
+      "image": "assets/images/projects/chatgpt-clone-app.webp",
+      "link": "https://github.com/manthanank/chatgpt-clone-react-app"
+    },
+    {
+      "id": "18",
+      "title": "Image Gallery App",
+      "description": "This is an Image Gallery App built using Angular. It allows users to browse and view a collection of images in a clean and responsive grid layout. The app includes features like image search, category filtering, and a lightbox for viewing full-size images.",
+      "technologies": [
+        "Angular"
+      ],
+      "image": "assets/images/projects/image-gallery-app.webp",
+      "link": "https://github.com/manthanank/image-gallery-angular-app"
+    },
+    {
+      "id": "19",
+      "title": "Todos App - JavaScript",
+      "description": "This is a simple and clean Todos App built using vanilla JavaScript. It allows users to manage their daily tasks, including adding new todos, marking them as complete, and deleting them. Local storage is used to persist the data.",
+      "technologies": [
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "image": "assets/images/projects/todos-app.webp",
+      "link": "https://github.com/manthanank/todos-js-app"
+    },
+    {
+      "id": "20",
+      "title": "WiFi QR Code Generator",
+      "description": "This is a WiFi QR Code Generator App built using Angular. It allows users to generate QR codes for their WiFi networks by entering the SSID, password, and security type. Users can then scan the QR code to quickly connect to the network.",
+      "technologies": [
+        "Angular"
+      ],
+      "image": "assets/images/projects/wifi-qr-code-generator-app.webp",
+      "link": "https://github.com/manthanank/wifi-qr-code-generator-angular-app"
     }
   ],
   "testimonials": [
