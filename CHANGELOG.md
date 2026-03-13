@@ -1,3 +1,12 @@
+# [1.23.0](https://github.com/manthanank/manthanank.github.io/compare/v1.22.0...v1.23.0) (2026-03-13)
+
+
+### Features
+
+* Introduce Ceevee stylesheet and main JavaScript, updating HTML and data for website design and interactivity. ([f605b15](https://github.com/manthanank/manthanank.github.io/commit/f605b15224522b7ee30ecbd952edb5c1e143ca19))
+
+
+
 # [1.22.0](https://github.com/manthanank/manthanank.github.io/compare/v1.21.0...v1.22.0) (2026-02-23)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * Add education and contact sections to resume page ([fd0decf](https://github.com/manthanank/manthanank.github.io/commit/fd0decf88c9a3aba5e71a2a8ead4dabca784414a))
-
-
-
-# [1.18.0](https://github.com/manthanank/manthanank.github.io/compare/v1.17.0...v1.18.0) (2024-08-05)
-
-
-### Features
-
-* Add new project modals for Todo's App, WiFi QR Code Generator App, and ChatGPT Clone App ([dc0028f](https://github.com/manthanank/manthanank.github.io/commit/dc0028ff7080d92108db81d327682a2f0890956a))
 
 
 
