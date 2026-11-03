@@ -54,5 +54,5 @@ I hold a B.E. in Computer Science & Engineering from Sahyadri College of Enginee
 ## Optional
 
 - [Facebook](https://www.facebook.com/manthanank/): Personal social media profile
-- [Portfolio Images](https://manthanank.github.io/assets/images/): Profile pictures and project screenshots
+- [Profile Picture](https://manthanank.github.io/assets/images/picture.webp): Profile picture
 - [Project Data](https://manthanank.github.io/data.json): Structured data for portfolio content
