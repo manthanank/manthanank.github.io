@@ -18,6 +18,8 @@ I hold a B.E. in Computer Science & Engineering from Sahyadri College of Enginee
 - Software Engineer, BlackCoffer (Feb 2023 - Aug 2024, Remote)
 - Full Stack Developer Intern, AppiVa Software Pvt Ltd (Jul 2022 - Dec 2022, Remote)
 - Angular Developer Intern, Faclon Labs Pvt Ltd (Nov 2021 - Apr 2022, Mumbai, Remote)
+- Trainee, SounderGrad Training Programme (May 2021 - Aug 2021)
+- Student Intern, Karanji InfoTech Pvt.Ltd (Jun 2019 - Jul 2019)
 
 **Community**: 140 articles on Dev.to, 16 npm packages, 105 open learning guides in TheLearningHubOrg.
 
