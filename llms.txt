@@ -1,21 +1,30 @@
 # Manthan Ankolekar's Portfolio
 
-> Personal portfolio website of Manthan Ankolekar, a full-stack developer specializing in Angular, Node.js, and MEAN stack development. Based in Karnataka, India.
+> Personal portfolio website of Manthan Ankolekar, a full-stack software engineer working in Next.js, Angular, Node.js and Python. Based in Karnataka, India.
 
 ## About
 
-I'm a Software Engineer with expertise in full-stack web development. I graduated with a B.E. in Computer Science from Sahyadri College of Engineering & Management and have professional experience working at companies like Senwell Group, Blackcoffer, and AppiVa Software. I'm passionate about building practical applications and continuously learning new technologies.
+Full-stack software engineer with 3.5+ years of experience building scalable web applications, microservices and AI-driven workflows. I work mostly in Next.js, Angular, Node.js and Python on cloud-native infrastructure. My recent work covers integrations with dealer management systems, LLM vision pipelines and high-throughput SaaS dashboards.
 
-**Key Technologies**: Angular, Node.js, JavaScript, TypeScript, MongoDB, MySQL, Firebase, AWS, Python
+I hold a B.E. in Computer Science & Engineering from Sahyadri College of Engineering & Management, Mangalore (Aug 2016 - Aug 2020).
+
+**Key Technologies**: JavaScript, TypeScript, Python, Next.js, React, Angular, RxJS, Tailwind CSS, Node.js, Express.js, Flask, RabbitMQ, WebSockets, MongoDB, MySQL, PostgreSQL, Firebase, Supabase, Redis, Anthropic Claude API, OpenAI, Docker, AWS, GCP, Microsoft Azure
 
 **Availability**: Open to full-time roles and freelance projects, remote or on-site.
 
-**Most recent role**: Independent Full Stack Developer (Feb 2025 - Oct 2026)
+**Work history**:
+- Software Developer, Tech Driven Agency (Feb 2025 - Oct 2026, Remote)
+- Software Developer, Senwell Group Pvt Ltd (Oct 2024 - Jan 2025, Pune)
+- Software Engineer, BlackCoffer (Feb 2023 - Aug 2024, Remote)
+- Full Stack Developer Intern, AppiVa Software Pvt Ltd (Jul 2022 - Dec 2022, Remote)
+- Angular Developer Intern, Faclon Labs Pvt Ltd (Nov 2021 - Apr 2022, Mumbai, Remote)
+
+**Community**: 140 articles on Dev.to, 16 npm packages, 105 open learning guides in TheLearningHubOrg.
 
 ## Professional Experience
 
 - [Resume](https://docs.google.com/document/d/1Ba40AaV2Ol5hueeVe5wCI1GeBEtcPJXp3mzm-HZ6BHk/edit?usp=sharing): Complete professional resume with detailed work experience
-- [LinkedIn Profile](https://www.linkedin.com/in/manthanank): Professional networking profile with career history
+- [LinkedIn Profile](https://www.linkedin.com/in/manthan-ankolekar-597b07a8/): Professional networking profile with career history
 
 ## Portfolio Sections
 
@@ -27,17 +36,18 @@ I'm a Software Engineer with expertise in full-stack web development. I graduate
 
 ## Projects
 
-- [Netflix Clone](https://github.com/manthanank/netflix-clone): React-based streaming platform clone with TMDB API integration
-- [COVID-19 Tracker](https://github.com/manthanank/covid19-tracker): Angular application for tracking COVID-19 statistics
+- [Netflix Clone](https://github.com/manthanank/netflix-clone-react-app): React-based streaming platform clone with TMDB API integration
+- [COVID-19 Tracker](https://github.com/manthanank/covid19-tracker-angular-app): Angular application for tracking COVID-19 statistics
 - [Weather Apps](https://github.com/manthanank/weather-app-angular): Multiple weather applications built with Angular and PWA technologies
 - [Full-Stack Blog App](https://github.com/manthanank/blog-app): Complete blogging platform with MEAN stack
-- [URL Shortener](https://github.com/manthanank/url-shortener): URL shortening service application
-- [Expense Tracker](https://github.com/manthanank/expense-tracker): Personal finance management application
+- [URL Shortener](https://github.com/manthanank/url-shortener-app): URL shortening service application ([demo](https://shortener-url-app.vercel.app))
+- [Expense Tracker](https://github.com/manthanank/expense-tracker-app): Personal finance management application ([demo](https://expense-tracker-app-manthanank.vercel.app))
 
 ## Social & Contact
 
 - [GitHub](https://github.com/manthanank): Source code repositories and contributions
-- [Twitter/X](https://twitter.com/manthan_ank): Professional updates and tech discussions
+- [Dev.to](https://dev.to/manthanank): Technical articles
+- [X](https://x.com/manthan_ank): Professional updates and tech discussions
 - [Instagram](https://www.instagram.com/manthan_ank/): Personal updates and behind-the-scenes content
 - [Email](mailto:manthan.ank46@gmail.com): Direct contact for professional inquiries
 

@@ -1,7 +1,7 @@
 fetch("data.json")
   .then((response) => response.json())
   .then((data) => {
-    const { resumeUrl, skills, socialLinks, career, education, projects, testimonials } =
+    const { resumeUrl, skills, skillGroups, socialLinks, career, education, projects, testimonials } =
       data;
 
     // Set resume link dynamically
@@ -25,6 +25,15 @@ fetch("data.json")
       skillsList.appendChild(fragment);
     }
 
+    // Render grouped skill list
+    function renderSkillGroups(groups) {
+      const container = document.querySelector(".skill-groups");
+      if (!container || !groups || !groups.length) return;
+      container.innerHTML = groups
+        .map((g) => `<p><strong>${g.group}:</strong> ${g.items.join(", ")}</p>`)
+        .join("");
+    }
+
     // Render Social Links
     function renderSocialLinks(links) {
       const heroSocial = document.querySelector(".s-hero__content-social");
@@ -34,13 +43,13 @@ fetch("data.json")
       links.forEach((link) => {
         if (heroSocial) {
           heroSocial.innerHTML += `
-            <a href="${link.url}" aria-label="${link.name} link"><i class="fab fa-${link.icon}" aria-hidden="true"></i></a>
+            <a href="${link.url}" aria-label="${link.platform} link"><i class="fab fa-${link.icon}" aria-hidden="true"></i></a>
           `;
         }
         if (footerSocial) {
           footerSocial.innerHTML += `
             <li>
-              <a href="${link.url}" aria-label="${link.name} link"><i class="fab fa-${link.icon}" aria-hidden="true"></i></a>
+              <a href="${link.url}" aria-label="${link.platform} link"><i class="fab fa-${link.icon}" aria-hidden="true"></i></a>
             </li>
           `;
         }
@@ -266,6 +275,7 @@ fetch("data.json")
 
     renderSkills(skills);
     renderSocialLinks(socialLinks);
+    renderSkillGroups(skillGroups);
     renderCareer(career);
     renderEducation(education);
     renderProjects(projects);

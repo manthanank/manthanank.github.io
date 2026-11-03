@@ -1,10 +1,10 @@
 # Manthan Ankolekar's Portfolio Website
 
-This repository contains the code for my personal portfolio website, showcasing my skills, projects, and professional experience as a Software Developer.
+This repository contains the code for my personal portfolio website, showcasing my skills, projects, and professional experience as a Full-Stack Software Engineer.
 
 ## Overview
 
-This portfolio is built as a responsive, modern single-page application that highlights my work in full-stack development, particularly with Angular, Node.js, and the MEAN stack. The site includes sections for:
+This portfolio is built as a responsive, modern single-page application that highlights my work in full-stack development, particularly with Next.js, Angular, Node.js and Python. The site includes sections for:
 
 - Introduction
 - About Me
@@ -57,9 +57,9 @@ Or simply visit the live version at [manthanank.github.io](https://manthanank.gi
 
 You can reach me at [manthan.ank46@gmail.com](mailto:manthan.ank46@gmail.com) or through any of the social platforms linked on the website:
 
-- [LinkedIn](https://www.linkedin.com/in/manthanank)
+- [LinkedIn](https://www.linkedin.com/in/manthan-ankolekar-597b07a8/)
 - [GitHub](https://github.com/manthanank)
-- [Twitter](https://twitter.com/manthan_ank)
+- [X](https://x.com/manthan_ank)
 
 ## License
 

@@ -8,7 +8,7 @@
     },
     {
       "platform": "twitter",
-      "url": "https://twitter.com/manthan_ank",
+      "url": "https://x.com/manthan_ank",
       "icon": "x-twitter"
     },
     {
@@ -23,68 +23,134 @@
     },
     {
       "platform": "linkedin",
-      "url": "https://www.linkedin.com/in/manthanank",
+      "url": "https://www.linkedin.com/in/manthan-ankolekar-597b07a8/",
       "icon": "linkedin"
+    },
+    {
+      "platform": "devto",
+      "url": "https://dev.to/manthanank",
+      "icon": "dev"
+    },
+    {
+      "platform": "gitlab",
+      "url": "https://gitlab.com/manthanank",
+      "icon": "gitlab"
     }
   ],
   "career": [
     {
-      "company": "Independent",
-      "position": "Independent Full Stack Developer",
+      "company": "Tech Driven Agency",
+      "position": "Software Developer",
       "startDate": "Feb 2025",
       "endDate": "Oct 2026",
-      "description": "Freelance & client work, remote. Built line-of-business web applications end to end, from the Postgres schema to the UI. Worked across Astro, Node.js, Supabase/Postgres, Docker and AWS."
+      "description": "Remote. Built full-stack dealer management applications for car dealerships with Next.js and Python Flask, structured as scalable microservices. Developed features for an AI-driven vehicle reconditioning platform: automated vehicle photo condition scoring, damage detection and listing generation with LLM APIs. Built secure two-way write-backs to major dealer management systems through HMAC-signed, retry-resilient REST APIs. Created real-time Kanban tracking boards with bottleneck flags, time-to-line forecasting and SMS-triggered stage transitions. Containerized services with Docker and PostgreSQL for cloud and on-premise deployments, working in Agile sprints."
     },
     {
       "company": "Senwell Group Pvt Ltd",
       "position": "Software Developer",
       "startDate": "Oct 2024",
       "endDate": "Jan 2025",
-      "description": "Contributed to enhancing and maintaining Angular-based applications for recruitment platforms and tolling & traffic management systems. Collaborated with cross-functional teams, including designers, backend developers, and product managers, to implement new features and resolve issues. Worked on microservice architectures, ensuring efficient communication between services and integrating them with front-end applications. Focused on creating efficient, user-centric applications while following industry best practices for scalability and maintainability."
+      "description": "Pune, India. Built high-concurrency Angular applications for enterprise recruitment and traffic management platforms. Designed modular, reusable UI components and integrated REST APIs. Took part in code reviews and performance tuning, and mentored junior developers."
     },
     {
-      "company": "Blackcoffer",
+      "company": "BlackCoffer",
       "position": "Software Engineer",
       "startDate": "Feb 2023",
       "endDate": "Aug 2024",
-      "description": "Designed and developed an API dashboard using Angular, incorporating distinct user and admin roles, and integrated backend APIs for dynamic data management. Built a multi-role hospital management system with Angular, Node.js, and MySQL, deploying it on AWS to ensure scalability and reliability. Integrated real-time notifications using WebSockets for timely updates on user actions in the hospital management system. Refactored and optimized the code, reducing the build size by more than 50%, and maintained system performance with continuous updates based on user feedback."
+      "description": "Remote. Built an API Admin & Client Dashboard in Angular covering 150+ REST APIs with role-based access control. Built a multi-role hospital management system (patient discharge and call monitoring) with Angular, Node.js and MySQL on AWS, with real-time alerts over Socket.IO. Cut build size by 50% and set up CI/CD pipelines."
     },
     {
       "company": "AppiVa Software Pvt Ltd",
       "position": "Full Stack Developer Intern",
       "startDate": "Jul 2022",
       "endDate": "Dec 2022",
-      "description": "Enhanced an existing application by adding new features. Provided ongoing maintenance and optimization for the system. Used Angular, Node.js, Python, and Firebase for the frontend, backend, and real-time data management, deploying the solution on AWS. Ensured application performance post-deployment by monitoring, troubleshooting, and addressing issues."
+      "description": "Remote. Built features across Angular, Node.js and Python applications backed by Firebase. Deployed applications to AWS, fixed production bugs and optimised queries."
     },
     {
       "company": "Faclon Labs Pvt Ltd",
       "position": "Angular Developer Intern",
       "startDate": "Nov 2021",
       "endDate": "Apr 2022",
-      "description": "Collaborated on Angular-based projects, including developing an admin panel and user interfaces for specific products. Applied Angular best practices such as modular architecture and reusable components to streamline development. Integrated backend RESTful APIs and conducted comprehensive testing to maintain application quality."
-    },
-    {
-      "company": "SounderGrad Training Programme",
-      "position": "Trainee",
-      "startDate": "May 2021",
-      "endDate": "Aug 2021",
-      "description": "Completed training in HTML, CSS, JavaScript, jQuery, and Angular, focusing on dynamic, responsive web applications. Improved skills in API integration and asynchronous data handling with Angular. Developed a Corona Tracker application using Angular and REST APIs. Integrated real-time data from APIs to display COVID-19 statistics."
-    },
-    {
-      "company": "Karanji InfoTech Pvt.Ltd",
-      "position": "Student Intern",
-      "startDate": "Jun 2019",
-      "endDate": "Jul 2019",
-      "description": "Gained foundational knowledge and experience in machine learning concepts. Explored Python libraries and frameworks for implementing speech synthesis. Developed a text-to-speech conversion application in Python, utilizing relevant libraries to convert text into audio."
+      "description": "Mumbai (Remote). Built admin panels for an IoT platform in Angular and telemetry dashboards with RxJS."
     }
   ],
   "education": [
     {
       "institution": "Sahyadri College of Engineering & Management",
-      "degree": "Bachelor of Engineering",
-      "startYear": "2016",
-      "endYear": "2020",
-      "description": "Graduated in Computer Science"
+      "degree": "B.E. Computer Science & Engineering",
+      "startYear": "Aug 2016",
+      "endYear": "Aug 2020",
+      "description": "Mangalore, India"
+    }
+  ],
+  "skillGroups": [
+    {
+      "group": "Languages",
+      "items": [
+        "JavaScript",
+        "TypeScript",
+        "Python"
+      ]
+    },
+    {
+      "group": "Frontend",
+      "items": [
+        "Next.js",
+        "React",
+        "Angular",
+        "RxJS",
+        "Tailwind CSS"
+      ]
+    },
+    {
+      "group": "Backend",
+      "items": [
+        "Node.js",
+        "Express.js",
+        "Flask",
+        "RabbitMQ",
+        "WebSockets"
+      ]
+    },
+    {
+      "group": "Databases",
+      "items": [
+        "MongoDB",
+        "MySQL",
+        "PostgreSQL",
+        "Firebase",
+        "Supabase",
+        "Redis"
+      ]
+    },
+    {
+      "group": "AI",
+      "items": [
+        "Anthropic Claude API",
+        "OpenAI",
+        "LLMs"
+      ]
+    },
+    {
+      "group": "Tools",
+      "items": [
+        "Git",
+        "GitHub",
+        "GitLab",
+        "Bitbucket",
+        "Jira",
+        "Postman"
+      ]
+    },
+    {
+      "group": "Cloud & DevOps",
+      "items": [
+        "AWS",
+        "GCP",
+        "Docker",
+        "CI/CD",
+        "Microsoft Azure"
+      ]
     }
   ],
   "skills": [
@@ -286,35 +352,35 @@
     {
       "id": "17",
       "title": "ChatGPT Clone App",
-      "description": "This is a ChatGPT Clone built using React and the OpenAI API. It allows users to have conversations with an AI assistant that behaves like ChatGPT. The app includes features like message history, multiple chat sessions, and a responsive UI.",
+      "description": "This is a ChatGPT Clone built using Angular with a Node.js and Express backend that calls the OpenAI API. It lets users hold conversations with an AI assistant in a chat-style interface.",
       "technologies": [
-        "React",
+        "Angular",
+        "Node.js",
         "OpenAI API"
       ],
       "image": "assets/images/projects/chatgpt-clone-app.webp",
-      "link": "https://github.com/manthanank/chatgpt-clone-react-app"
+      "link": "https://github.com/manthanank/chatgpt-clone-app"
     },
     {
       "id": "18",
       "title": "Image Gallery App",
-      "description": "This is an Image Gallery App built using Angular. It allows users to browse and view a collection of images in a clean and responsive grid layout. The app includes features like image search, category filtering, and a lightbox for viewing full-size images.",
+      "description": "This is an Image Gallery App built using Angular and styled with Tailwind CSS. It fetches images from the Unsplash API and lets users filter them by orientation.",
       "technologies": [
-        "Angular"
+        "Angular",
+        "Tailwind CSS"
       ],
       "image": "assets/images/projects/image-gallery-app.webp",
-      "link": "https://github.com/manthanank/image-gallery-angular-app"
+      "link": "https://github.com/manthanank/image-gallery-app"
     },
     {
       "id": "19",
-      "title": "Todos App - JavaScript",
-      "description": "This is a simple and clean Todos App built using vanilla JavaScript. It allows users to manage their daily tasks, including adding new todos, marking them as complete, and deleting them. Local storage is used to persist the data.",
+      "title": "Todos App",
+      "description": "This is a Todos App built on the MEAN stack. Users can add todos, mark them as complete and delete them. The backend is built with Node.js, Express and MongoDB.",
       "technologies": [
-        "JavaScript",
-        "HTML",
-        "CSS"
+        "MEAN Stack"
       ],
       "image": "assets/images/projects/todos-app.webp",
-      "link": "https://github.com/manthanank/todos-js-app"
+      "link": "https://github.com/manthanank/todos-app"
     },
     {
       "id": "20",
@@ -330,7 +396,7 @@
   "testimonials": [
     {
       "name": "Renee DiMuzio",
-      "position": "Director of Marketing and Business Development Manager, Altrix Group",
+      "position": "Director of Marketing and Business Development Manager",
       "content": "Manthan worked with our team for approximately two years as a software developer. During this time, he consistently performed the tasks assigned to him and his team and contributed to completing several key projects. Manthan demonstrated a solid understanding of software development fundamentals and was able to deliver work within the expected timeframes. He remained a steady and dependable team member, capable of working within the scope of his responsibilities. Manthan would be a good fit for roles that require a diligent and consistent software developer. He will bring value to any team looking for someone to complete tasks efficiently and with attention to detail."
     }
   ]
