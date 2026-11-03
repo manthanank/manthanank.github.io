@@ -1,3 +1,12 @@
+## [1.23.1](https://github.com/manthanank/manthanank.github.io/compare/v1.23.0...v1.23.1) (2026-11-03)
+
+
+### Bug Fixes
+
+* Update availability and work history ([b997acf](https://github.com/manthanank/manthanank.github.io/commit/b997acf2f6e3ddecd7030a9328032053bb95d0e2))
+
+
+
 # [1.23.0](https://github.com/manthanank/manthanank.github.io/compare/v1.22.0...v1.23.0) (2026-03-13)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * Update resume page with education and contact sections ([f3a0acb](https://github.com/manthanank/manthanank.github.io/commit/f3a0acba5ec0e1e02e8b336a4d7fdcc4b6cb0baf))
-
-
-
-# [1.19.0](https://github.com/manthanank/manthanank.github.io/compare/v1.18.0...v1.19.0) (2024-08-15)
-
-
-### Features
-
-* Add education and contact sections to resume page ([fd0decf](https://github.com/manthanank/manthanank.github.io/commit/fd0decf88c9a3aba5e71a2a8ead4dabca784414a))
 
 
 
