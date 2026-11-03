@@ -1,6 +1,6 @@
 # Manthan Ankolekar's Portfolio
 
-> Personal portfolio website of Manthan Ankolekar, a full-stack developer with 2+ years of professional experience specializing in Angular, Node.js, and MEAN stack development. Based in Karnataka, India.
+> Personal portfolio website of Manthan Ankolekar, a full-stack developer specializing in Angular, Node.js, and MEAN stack development. Based in Karnataka, India.
 
 ## About
 
@@ -8,7 +8,9 @@ I'm a Software Engineer with expertise in full-stack web development. I graduate
 
 **Key Technologies**: Angular, Node.js, JavaScript, TypeScript, MongoDB, MySQL, Firebase, AWS, Python
 
-**Current Role**: Software Developer at Senwell Group Pvt Ltd (Oct 2024 - Present)
+**Availability**: Open to full-time roles and freelance projects, remote or on-site.
+
+**Most recent role**: Independent Full Stack Developer (Feb 2025 - Oct 2026)
 
 ## Professional Experience
 
