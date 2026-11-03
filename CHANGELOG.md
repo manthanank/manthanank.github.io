@@ -1,3 +1,12 @@
+## [1.23.2](https://github.com/manthanank/manthanank.github.io/compare/v1.23.1...v1.23.2) (2026-11-03)
+
+
+### Bug Fixes
+
+* Point social preview image at an existing file ([3402487](https://github.com/manthanank/manthanank.github.io/commit/3402487e4f8cb8d964a04cc28ff59e8fa880de74))
+
+
+
 ## [1.23.1](https://github.com/manthanank/manthanank.github.io/compare/v1.23.0...v1.23.1) (2026-11-03)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * Update career section in data.json and about me section in index.html ([d8bdc9f](https://github.com/manthanank/manthanank.github.io/commit/d8bdc9fbe902a296169b4428299905b0df25699a))
-
-
-
-# [1.20.0](https://github.com/manthanank/manthanank.github.io/compare/v1.19.0...v1.20.0) (2024-09-03)
-
-
-### Features
-
-* Update resume page with education and contact sections ([f3a0acb](https://github.com/manthanank/manthanank.github.io/commit/f3a0acba5ec0e1e02e8b336a4d7fdcc4b6cb0baf))
 
 
 
